@@ -1,13 +1,26 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-08T08:35:00Z",
-  "lastChangedAt": "2026-10-08T08:35:00Z",
+  "lastCheckedAt": "2026-10-09T21:51:48.589Z",
+  "lastChangedAt": "2026-10-09T21:51:48.589Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
-    "status": "scheduled",
-    "watchlistCursor": 0
+    "status": "active",
+    "watchlistCursor": 4,
+    "lastReview": {
+      "attemptedAt": "2026-10-09T21:51:48.589Z",
+      "companies": [
+        "合见工软",
+        "芯华章",
+        "芯和半导体",
+        "芯愿景"
+      ],
+      "unreadableCompanySites": [
+        "芯华章",
+        "芯愿景"
+      ]
+    }
   },
   "sources": [
     {
@@ -29,7 +42,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-08T08:35:00Z",
+      "checkedAt": "2026-10-09T21:51:48.589Z",
       "status": "verified"
     },
     {
@@ -40,7 +53,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-08T08:35:00Z",
+      "checkedAt": "2026-10-09T21:51:48.589Z",
       "status": "verified"
     },
     {
@@ -74,6 +87,28 @@
       "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225529543.PDF",
       "publishedAt": "2026-08-29",
       "checkedAt": "2026-10-08T08:35:00Z",
+      "status": "verified"
+    },
+    {
+      "id": "trendforce-hbm-20260929",
+      "name": {
+        "en": "TrendForce · 2027 HBM forecast",
+        "zh": "TrendForce · 2027 年 HBM 预测"
+      },
+      "url": "https://www.trendforce.com/presscenter/news/20260929-13255.html",
+      "publishedAt": "2026-09-29",
+      "checkedAt": "2026-10-09T21:51:48.589Z",
+      "status": "verified"
+    },
+    {
+      "id": "univista-goat-20260910",
+      "name": {
+        "en": "UniVista · Verification GOAT announcement",
+        "zh": "合见工软 · Verification GOAT 公告"
+      },
+      "url": "https://www.univista-isg.com/site/news_detail/576",
+      "publishedAt": "2026-09-10",
+      "checkedAt": "2026-10-09T21:51:48.589Z",
       "status": "verified"
     }
   ],
@@ -190,6 +225,19 @@
       "sourceId": "trendforce-q4"
     },
     {
+      "id": "hbm-20260929",
+      "date": "2026-09-29",
+      "title": {
+        "en": "TrendForce raises its 2027 high-bandwidth memory price forecast",
+        "zh": "TrendForce 上调 2027 年高带宽内存价格预测"
+      },
+      "summary": {
+        "en": "TrendForce forecasts a 121% year-on-year increase in the blended average selling price of high-bandwidth memory (HBM) in 2027, reflecting supply constraints and a changing product mix. This is a forecast, not a realized price.",
+        "zh": "TrendForce 预测 2027 年高带宽内存（HBM）混合平均售价同比上涨 121%，原因包括供应受限及产品组合变化。这是预测，并非已实现价格。"
+      },
+      "sourceId": "trendforce-hbm-20260929"
+    },
+    {
       "id": "g5-20260920",
       "date": "2026-09-20",
       "title": {
@@ -201,6 +249,19 @@
         "zh": "长鑫披露有源区半节距 11.95 nm，并推出单裸片 24 Gb 的 LPDDR5X。半节距是具体测量指标，不代表芯片所有结构的尺寸。"
       },
       "sourceId": "cxmt-g5"
+    },
+    {
+      "id": "univista-goat-20260910",
+      "date": "2026-09-10",
+      "title": {
+        "en": "UniVista introduces agents for chip verification",
+        "zh": "合见工软推出芯片验证智能体"
+      },
+      "summary": {
+        "en": "UniVista's announcement describes tools introduced on 1 September 2026 for simulation, debugging, regression management and hardware verification. The product announcement does not establish a supply relationship with CXMT.",
+        "zh": "合见工软公告介绍了于 2026 年 9 月 1 日发布的仿真、调试、回归管理与硬件验证工具。该产品公告不构成长鑫供货关系的证据。"
+      },
+      "sourceId": "univista-goat-20260910"
     },
     {
       "id": "lpddr6-20260907",
