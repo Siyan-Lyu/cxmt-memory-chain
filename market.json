@@ -1,0 +1,592 @@
+{
+  "schemaVersion": 1,
+  "baselineAsOf": "2026-07-16",
+  "lastCheckedAt": "2026-10-08T08:35:00Z",
+  "lastChangedAt": "2026-10-08T08:35:00Z",
+  "scheduler": {
+    "enabled": false,
+    "cadence": "hourly",
+    "status": "pending"
+  },
+  "sources": [
+    {
+      "id": "trendforce-q2",
+      "name": {
+        "en": "TrendForce · Q2 2026 DRAM",
+        "zh": "TrendForce · 2026 年第二季 DRAM"
+      },
+      "url": "https://www.trendforce.com/presscenter/news/20260907-13219.html",
+      "publishedAt": "2026-09-07",
+      "checkedAt": "2026-10-08T08:35:00Z",
+      "status": "verified"
+    },
+    {
+      "id": "trendforce-q4",
+      "name": {
+        "en": "TrendForce · Q4 2026 outlook",
+        "zh": "TrendForce · 2026 年第四季展望"
+      },
+      "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
+      "publishedAt": "2026-09-30",
+      "checkedAt": "2026-10-08T08:35:00Z",
+      "status": "verified"
+    },
+    {
+      "id": "cxmt-g5",
+      "name": {
+        "en": "CXMT · G5 announcement",
+        "zh": "长鑫 · G5 平台公告"
+      },
+      "url": "https://www.cxmt.com/en/news/info_22.html",
+      "publishedAt": "2026-09-20",
+      "checkedAt": "2026-10-08T08:35:00Z",
+      "status": "verified"
+    },
+    {
+      "id": "cxmt-lpddr6",
+      "name": {
+        "en": "CXMT · LPDDR6 announcement",
+        "zh": "长鑫 · LPDDR6 公告"
+      },
+      "url": "https://www.cxmt.com/en/news/info_21.html",
+      "publishedAt": "2026-09-07",
+      "checkedAt": "2026-10-08T08:35:00Z",
+      "status": "verified"
+    },
+    {
+      "id": "cxmt-listing",
+      "name": {
+        "en": "Shanghai Stock Exchange · CXMT listing",
+        "zh": "上海证券交易所 · 长鑫上市公告"
+      },
+      "url": "https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260724_10826610.shtml",
+      "publishedAt": "2026-07-24",
+      "checkedAt": "2026-10-08T08:35:00Z",
+      "status": "verified"
+    },
+    {
+      "id": "cxmt-interim",
+      "name": {
+        "en": "CXMT · 2026 interim report",
+        "zh": "长鑫 · 2026 年半年度报告"
+      },
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225529543.PDF",
+      "publishedAt": "2026-08-29",
+      "checkedAt": "2026-10-08T08:35:00Z",
+      "status": "verified"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "dram-revenue",
+      "label": {
+        "en": "Global DRAM revenue",
+        "zh": "全球 DRAM 营收"
+      },
+      "value": {
+        "en": "US$154.73 billion",
+        "zh": "1,547.3 亿美元"
+      },
+      "period": {
+        "en": "Q2 2026 · reported result",
+        "zh": "2026 年第二季 · 已披露结果"
+      },
+      "sourceId": "trendforce-q2"
+    },
+    {
+      "id": "cxmt-share",
+      "label": {
+        "en": "CXMT global DRAM share",
+        "zh": "长鑫全球 DRAM 份额"
+      },
+      "value": {
+        "en": "9.5%",
+        "zh": "9.5%"
+      },
+      "period": {
+        "en": "Q2 2026 · revenue share",
+        "zh": "2026 年第二季 · 营收口径"
+      },
+      "sourceId": "trendforce-q2"
+    },
+    {
+      "id": "top3-share",
+      "label": {
+        "en": "Top three DRAM suppliers",
+        "zh": "DRAM 三大厂商"
+      },
+      "value": {
+        "en": "87.6% combined",
+        "zh": "合计 87.6%"
+      },
+      "period": {
+        "en": "Q2 2026 · Samsung 39.4%; SK hynix 24.9%; Micron 23.3%",
+        "zh": "2026 年第二季 · 三星 39.4%；海力士 24.9%；美光 23.3%"
+      },
+      "sourceId": "trendforce-q2"
+    },
+    {
+      "id": "dram-outlook",
+      "label": {
+        "en": "Conventional DRAM contract-price outlook",
+        "zh": "一般型 DRAM 合约价展望"
+      },
+      "value": {
+        "en": "+10–15% QoQ",
+        "zh": "环比 +10–15%"
+      },
+      "period": {
+        "en": "Q4 2026 forecast · not a realized price",
+        "zh": "2026 年第四季预测 · 非已实现价格"
+      },
+      "sourceId": "trendforce-q4"
+    },
+    {
+      "id": "nand-outlook",
+      "label": {
+        "en": "NAND Flash contract-price outlook",
+        "zh": "NAND 闪存合约价展望"
+      },
+      "value": {
+        "en": "+15–20% QoQ",
+        "zh": "环比 +15–20%"
+      },
+      "period": {
+        "en": "Q4 2026 forecast · not a realized price",
+        "zh": "2026 年第四季预测 · 非已实现价格"
+      },
+      "sourceId": "trendforce-q4"
+    },
+    {
+      "id": "cxmt-revenue",
+      "label": {
+        "en": "CXMT revenue",
+        "zh": "长鑫营业收入"
+      },
+      "value": {
+        "en": "CNY 150.31 billion",
+        "zh": "1,503.10 亿元人民币"
+      },
+      "period": {
+        "en": "H1 2026 · unaudited interim report",
+        "zh": "2026 年上半年 · 未经审计的半年报"
+      },
+      "sourceId": "cxmt-interim"
+    }
+  ],
+  "news": [
+    {
+      "id": "price-20260930",
+      "date": "2026-09-30",
+      "title": {
+        "en": "Server demand continues to shape memory pricing",
+        "zh": "服务器需求继续影响存储价格"
+      },
+      "summary": {
+        "en": "TrendForce expects further DRAM and NAND contract-price increases in Q4. Forecasts describe an expected quarter, not live transaction prices.",
+        "zh": "TrendForce 预计第四季 DRAM 与 NAND 合约价继续上涨。预测反映对未来季度的判断，并非实时成交价格。"
+      },
+      "sourceId": "trendforce-q4"
+    },
+    {
+      "id": "g5-20260920",
+      "date": "2026-09-20",
+      "title": {
+        "en": "CXMT announces G5 volume production",
+        "zh": "长鑫宣布 G5 平台量产"
+      },
+      "summary": {
+        "en": "CXMT reports an 11.95 nm active-area half-pitch and 24 Gb LPDDR5X dies. Half-pitch is a specific measurement, not the size of every structure on the chip.",
+        "zh": "长鑫披露有源区半节距 11.95 nm，并推出单裸片 24 Gb 的 LPDDR5X。半节距是具体测量指标，不代表芯片所有结构的尺寸。"
+      },
+      "sourceId": "cxmt-g5"
+    },
+    {
+      "id": "lpddr6-20260907",
+      "date": "2026-09-07",
+      "title": {
+        "en": "LPDDR6 joins CXMT's product portfolio",
+        "zh": "长鑫产品线新增 LPDDR6"
+      },
+      "summary": {
+        "en": "CXMT reports mass production of a 16 GB LPDDR6 package, with a maximum data rate of 12,800 Mbps. This is still DRAM for working memory, rather than NAND storage.",
+        "zh": "长鑫披露 16 GB LPDDR6 封装产品量产，最高数据速率 12,800 Mbps。它仍属于运行内存 DRAM，而非 NAND 存储空间。"
+      },
+      "sourceId": "cxmt-lpddr6"
+    },
+    {
+      "id": "listed-20260727",
+      "date": "2026-07-27",
+      "title": {
+        "en": "CXMT is listed on the STAR Market",
+        "zh": "长鑫已在科创板上市"
+      },
+      "summary": {
+        "en": "The exchange's listing notice confirms trading began on 27 July 2026 under code 688825. Earlier IPO-planning items remain historical records.",
+        "zh": "交易所公告确认其于 2026 年 7 月 27 日开始交易，证券代码 688825。此前上市计划类信息保留为历史记录。"
+      },
+      "sourceId": "cxmt-listing"
+    }
+  ],
+  "cxmt": {
+    "status": {
+      "en": "Listed · SSE 688825",
+      "zh": "已上市 · 上交所 688825"
+    },
+    "products": {
+      "en": "DDR4 / DDR5; LPDDR4X / LPDDR5 / LPDDR5X / LPDDR6",
+      "zh": "DDR4 / DDR5；LPDDR4X / LPDDR5 / LPDDR5X / LPDDR6"
+    },
+    "sourceIds": [
+      "cxmt-listing",
+      "cxmt-g5",
+      "cxmt-lpddr6"
+    ]
+  },
+  "companyUpdates": [],
+  "watchlist": [
+    {
+      "name": "合见工软",
+      "en": "UniVista",
+      "stage": "design",
+      "baselineStatus": "IPO进程",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.univista-isg.com/"
+    },
+    {
+      "name": "芯华章",
+      "en": "X-Epic",
+      "stage": "design",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.cls.cn/detail/1196854"
+    },
+    {
+      "name": "芯和半导体",
+      "en": "Xpeedic",
+      "stage": "design",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.xpeedic.com/cn/"
+    },
+    {
+      "name": "芯愿景",
+      "en": "Chiponeer",
+      "stage": "design",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.chiponeer.com/"
+    },
+    {
+      "name": "上海微电子",
+      "en": "SMEE",
+      "stage": "equipment",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.smee.com.cn/"
+    },
+    {
+      "name": "东方晶源",
+      "en": "DJEL",
+      "stage": "equipment",
+      "baselineStatus": "IPO进程",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.dfjy-jx.com/article/40.html"
+    },
+    {
+      "name": "睿励科学仪器",
+      "en": "RSIC",
+      "stage": "equipment",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.stcn.com/article/detail/627613.html"
+    },
+    {
+      "name": "埃芯半导体",
+      "en": "Eosemi",
+      "stage": "equipment",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://i.ifeng.com/c/8r0aJfrKsc6"
+    },
+    {
+      "name": "御微半导体",
+      "en": "Yuwei",
+      "stage": "equipment",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.yuwei-semi.com/"
+    },
+    {
+      "name": "中科信",
+      "en": "CETC EME",
+      "stage": "equipment",
+      "baselineStatus": "IPO进程",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://finance.ifeng.com/c/8tiJo7PSPE4"
+    },
+    {
+      "name": "悦芯科技",
+      "en": "TBT",
+      "stage": "equipment",
+      "baselineStatus": "IPO进程",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.njicg.com/article/1211"
+    },
+    {
+      "name": "晶亦精微",
+      "en": "Jingyi",
+      "stage": "equipment",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://static.sse.com.cn/stock/disclosure/announcement/c/202401/001976_20240126_INR6.pdf"
+    },
+    {
+      "name": "中欣晶圆",
+      "en": "FT Wafer",
+      "stage": "materials",
+      "baselineStatus": "IPO进程",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.ftwafer.com/news/details/139.html"
+    },
+    {
+      "name": "上海超硅",
+      "en": "AST",
+      "stage": "materials",
+      "baselineStatus": "IPO进程",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.stcn.com/article/detail/2069843.html"
+    },
+    {
+      "name": "鑫华科技",
+      "en": "Xinhua Semiconductor",
+      "stage": "materials",
+      "baselineStatus": "IPO进程",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002176_20260515_C2W5.pdf"
+    },
+    {
+      "name": "徐州博康",
+      "en": "B&C Chemical",
+      "stage": "materials",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.fsemi.tech/cms/investmentfinancing/1471.html"
+    },
+    {
+      "name": "科华微电子",
+      "en": "Kempur",
+      "stage": "materials",
+      "baselineStatus": "上市体系",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.kempur.com/"
+    },
+    {
+      "name": "联仕新材",
+      "en": "Lianshi",
+      "stage": "materials",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.lsnm.com/news/gsxw/182.html"
+    },
+    {
+      "name": "科利德",
+      "en": "Credit Chemical",
+      "stage": "materials",
+      "baselineStatus": "IPO进程",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.creditchem.com/"
+    },
+    {
+      "name": "久策气体",
+      "en": "Jiuce Gas",
+      "stage": "materials",
+      "baselineStatus": "挂牌进程",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://pdf.dfcfw.com/pdf/H2_AN202411281641107719_1.pdf?1732820456000.pdf="
+    },
+    {
+      "name": "迪思微电子",
+      "en": "DS Photomask",
+      "stage": "materials",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "http://www.ds-mask.com/"
+    },
+    {
+      "name": "长江存储",
+      "en": "YMTC",
+      "stage": "fabrication",
+      "baselineStatus": "IPO进程",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.ymtc.com/"
+    },
+    {
+      "name": "福建晋华",
+      "en": "JHICC",
+      "stage": "fabrication",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://pitchhub.36kr.com/project/1678487957926915"
+    },
+    {
+      "name": "武汉新芯",
+      "en": "XMC",
+      "stage": "fabrication",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.xmcwh.com/"
+    },
+    {
+      "name": "芯天下",
+      "en": "XTX Technology",
+      "stage": "fabrication",
+      "baselineStatus": "IPO进程",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.eet-china.com/news/202607152966.html"
+    },
+    {
+      "name": "昕原半导体",
+      "en": "Xinyuan Semiconductor",
+      "stage": "fabrication",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.xinyuansemi.com/"
+    },
+    {
+      "name": "时代全芯",
+      "en": "AMT",
+      "stage": "fabrication",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.amtpcm.com/"
+    },
+    {
+      "name": "知存科技",
+      "en": "Witmem",
+      "stage": "fabrication",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.xinhuanet.com/tech/20230106/ec33e33e368740729d06a4dc093ab768/c.html"
+    },
+    {
+      "name": "芯德半导体",
+      "en": "Chipde",
+      "stage": "packaging",
+      "baselineStatus": "IPO进程",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.huacapital.com/news_detail_23.html"
+    },
+    {
+      "name": "华进半导体",
+      "en": "NCAP",
+      "stage": "packaging",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.ncap-cn.com/news/"
+    },
+    {
+      "name": "英韧科技",
+      "en": "InnoGrit",
+      "stage": "controller",
+      "baselineStatus": "IPO进程",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://static.sse.com.cn/stock/disclosure/announcement/c/202606/002225_20260629_WWNB.pdf"
+    },
+    {
+      "name": "得一微",
+      "en": "Yeestor",
+      "stage": "controller",
+      "baselineStatus": "IPO进程",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001347_20230630_3KZW.pdf"
+    },
+    {
+      "name": "忆芯科技",
+      "en": "StarBlaze",
+      "stage": "controller",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.starblaze.com/lists/content/id/345.html"
+    },
+    {
+      "name": "忆恒创源",
+      "en": "Memblaze",
+      "stage": "controller",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.memblaze.com/"
+    },
+    {
+      "name": "记忆科技",
+      "en": "Ramaxel",
+      "stage": "module",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.ramaxel.com/"
+    },
+    {
+      "name": "嘉合劲威",
+      "en": "POWEV / Gloway",
+      "stage": "module",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.powev.com/"
+    },
+    {
+      "name": "金胜维",
+      "en": "KingSpec",
+      "stage": "module",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://www.kingspec.com/"
+    },
+    {
+      "name": "字节跳动",
+      "en": "ByteDance",
+      "stage": "applications",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260517_MGLN.pdf"
+    },
+    {
+      "name": "阿里云",
+      "en": "Alibaba Cloud",
+      "stage": "applications",
+      "baselineStatus": "上市体系",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260517_MGLN.pdf"
+    },
+    {
+      "name": "荣耀终端",
+      "en": "HONOR",
+      "stage": "applications",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260517_MGLN.pdf"
+    },
+    {
+      "name": "OPPO",
+      "en": "OPPO",
+      "stage": "applications",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260517_MGLN.pdf"
+    },
+    {
+      "name": "vivo",
+      "en": "vivo",
+      "stage": "applications",
+      "baselineStatus": "未上市",
+      "baselineAsOf": "2026-07-16",
+      "sourceUrl": "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260517_MGLN.pdf"
+    }
+  ],
+  "changeLog": [
+    {
+      "date": "2026-10-08",
+      "en": "Added bilingual presentation and six sourced market indicators; retained original historical periods.",
+      "zh": "新增双语展示与六项有来源的市场指标；保留原有历史报告期。"
+    }
+  ]
+}
