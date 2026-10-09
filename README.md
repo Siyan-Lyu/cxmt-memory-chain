@@ -30,9 +30,9 @@ The page loads the published market snapshot when opened and every five minutes 
 
 ## Market research / 市场查证
 
-Automatic research and source-data updates are not active yet. Reading the stored snapshot every five minutes does not itself collect new market information. Background updates require an authorized writer for this repository.
+An hourly ChatGPT research task is enabled through the connected Siyan-Lyu GitHub account. It checks primary sources and commits validated market-data changes, which GitHub Pages publishes automatically. Task activation does not mean its first research run has completed. See `docs/automatic-updates.md` for the research rules and `scripts/validate-market.mjs` for validation.
 
-自动查证及源数据更新尚未开启。每五分钟读取已有快照本身不会采集新的市场消息；后台更新需要本仓库的有效写入授权。
+每小时的 ChatGPT 查证任务已通过连接的 Siyan-Lyu GitHub 账户开启。任务查阅一手来源，将通过验证的市场数据修改提交到仓库，再由 GitHub Pages 自动发布。任务启用不代表首次查证已经完成。查证规则见 `docs/automatic-updates.md`，校验脚本见 `scripts/validate-market.mjs`。
 
 Update facts only when supported by primary sources. Preserve report periods, distinguish forecasts from reported results, retain historical funding records, and never infer CXMT supplier relationships from products or fundraising alone. Unknown amounts remain undisclosed.
 
