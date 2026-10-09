@@ -1,24 +1,26 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-09T22:53:56.183Z",
+  "lastCheckedAt": "2026-10-09T23:48:42.198Z",
   "lastChangedAt": "2026-10-09T21:51:48.589Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 8,
+    "watchlistCursor": 12,
     "lastReview": {
-      "attemptedAt": "2026-10-09T22:53:56.183Z",
+      "attemptedAt": "2026-10-09T23:48:42.198Z",
       "companies": [
-        "上海微电子",
-        "东方晶源",
-        "睿励科学仪器",
-        "埃芯半导体"
+        "御微半导体",
+        "中科信",
+        "悦芯科技",
+        "晶亦精微"
       ],
       "unreadableCompanySites": [
-        "睿励科学仪器",
-        "埃芯半导体"
+        "御微半导体",
+        "中科信",
+        "悦芯科技",
+        "晶亦精微"
       ]
     }
   },
