@@ -4,9 +4,10 @@
   "lastCheckedAt": "2026-10-08T08:35:00Z",
   "lastChangedAt": "2026-10-08T08:35:00Z",
   "scheduler": {
-    "enabled": false,
+    "enabled": true,
     "cadence": "hourly",
-    "status": "pending"
+    "status": "scheduled",
+    "watchlistCursor": 0
   },
   "sources": [
     {
