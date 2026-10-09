@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-09T21:51:48.589Z",
+  "lastCheckedAt": "2026-10-09T22:53:56.183Z",
   "lastChangedAt": "2026-10-09T21:51:48.589Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 4,
+    "watchlistCursor": 8,
     "lastReview": {
-      "attemptedAt": "2026-10-09T21:51:48.589Z",
+      "attemptedAt": "2026-10-09T22:53:56.183Z",
       "companies": [
-        "合见工软",
-        "芯华章",
-        "芯和半导体",
-        "芯愿景"
+        "上海微电子",
+        "东方晶源",
+        "睿励科学仪器",
+        "埃芯半导体"
       ],
       "unreadableCompanySites": [
-        "芯华章",
-        "芯愿景"
+        "睿励科学仪器",
+        "埃芯半导体"
       ]
     }
   },
