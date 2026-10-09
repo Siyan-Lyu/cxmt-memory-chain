@@ -1,44 +1,39 @@
 # CXMT Memory Industry Map / 长鑫存储产业链
 
-Public website / 公开网站: https://siyan-lyu.github.io/cxmt-memory-chain/
+Public website: https://siyan-lyu.github.io/cxmt-memory-chain/
 
-English appears above Chinese throughout the courses, company details, filters, tables and market-update panel.
-课程、公司详情、筛选、表格与市场更新区域均采用英文在上、中文在下。
+公开网站：https://siyan-lyu.github.io/cxmt-memory-chain/
 
-## Content / 内容
+Published and managed under Siyan-Lyu. Anyone can browse without a GitHub or ChatGPT account.
 
-- `src/baseline.html`: preserved July 16, 2026 website and its licensed React bundle.
-- `src/translations.json`: complete static bilingual dictionary.
-- `src/bilingual-runtime.js` and `src/bilingual.css`: bilingual rendering and layout.
-- `data/market.json`: sourced current snapshot, source-check records and company-specific updates.
-- `scripts/build.mjs`: creates the self-contained `index.html`.
+网站由 Siyan-Lyu 账户发布和管理，访客无需 GitHub 或 ChatGPT 账户。
 
-Run `node scripts/build.mjs` after changing the baseline, dictionary, layout, runtime or embedded snapshot.
-修改底稿、翻译、样式、运行逻辑或内置快照后，执行 `node scripts/build.mjs`。
+## Website files / 网站文件
 
-The public page loads `data/market.json` when opened, on manual refresh and every five minutes while visible. Publishing a new data file updates the public page independently of rebuilding the original courses. If loading fails, it keeps the saved snapshot without an update timestamp or technical banner.
-公开页面打开、手动刷新及保持可见时每五分钟读取 `data/market.json`。发布新数据文件即可更新线上数据，失败时保留快照，不显示更新时间或技术提示横幅。
+- `index.html`: self-contained bilingual website, with English above Chinese.
+- `data/market.json`: sourced market snapshot and company updates.
+- `.nojekyll`: serves the static files directly through GitHub Pages.
 
-## Update rules / 更新规则
+- `index.html`：独立双语页面，英文在上、中文在下。
+- `data/market.json`：附来源的市场快照与公司更新。
+- `.nojekyll`：通过 GitHub Pages 直接发布静态文件。
 
-The original 42-company dataset is a dated baseline, not a claim that every company's status is current. Update only fields supported by new evidence. Historical reports and financing rounds keep their original periods.
-原有 42 家公司库属于有日期的基准版本，不代表全部公司状态已最新。只更新有证据支持的字段，历史报告与融资保留原有时期。
+## Publishing / 发布
 
-Every metric requires an explicit period, source URL, publication date, check date and forecast/result distinction. Keep the last valid value when a source is unavailable. Never infer supply to CXMT from overlapping products or funding.
-每项指标须有报告期、来源网址、发布时间、检查日期及预测/结果区分。来源暂不可用时保留旧值，不根据产品或融资推断供货关系。
+GitHub Pages deploys the `main` branch from `/(root)`. Changes committed to this repository are published automatically.
 
-Company updates use `{name, verifiedAt, fields}`; `fields.sourceUrl` and `fields.sourceLabel` identify the supporting evidence. Text fields in `fields` use `{en,zh}` pairs. Canonical status values use Chinese so the existing filters continue to work. Unknown funding amounts remain undisclosed.
-公司更新使用 `{name, verifiedAt, fields}`；`fields.sourceUrl` 与 `fields.sourceLabel` 标明对应证据。文字字段采用 `{en,zh}`。状态的中文值用于原有筛选逻辑，未知融资金额保留为未披露。
+GitHub Pages 从 `main` 分支的 `/(root)` 发布，提交到本仓库的修改会自动部署。
 
-Scheduling status is recorded in the data file only after an automatic task has actually been enabled.
-仅在自动任务确已开启后，才在数据文件记录已开启状态。
+The page loads the published market snapshot when opened and every five minutes while visible. It keeps the last valid snapshot if loading fails. No update timestamp, refresh control or technical status banner appears on the website.
 
-## Hosting / 发布
+页面打开时及保持可见时每五分钟读取已发布市场快照；加载失败则保留有效数据。网站不显示更新时间、刷新控件或技术状态横幅。
 
-This repository uses the existing public GitHub Pages configuration: `main` and `/(root)`. Visitors do not need GitHub or ChatGPT accounts.
-保留现有公开 GitHub Pages 配置：`main` 与 `/(root)`。访问者无需 GitHub 或 ChatGPT 账号。
+## Market research / 市场查证
 
-## Automatic research / 自动查证
+Automatic research and source-data updates are not active yet. Reading the stored snapshot every five minutes does not itself collect new market information. Background updates require an authorized writer for this repository.
 
-See `docs/automatic-updates.md` for the prepared hourly task specification. Validate a new snapshot with `node scripts/validate-market.mjs`. Task activation requires verified GitHub write access.
-每小时自动任务说明见 `docs/automatic-updates.md`。执行 `node scripts/validate-market.mjs` 校验新快照。任务开启须先确认 GitHub 写入权限。
+自动查证及源数据更新尚未开启。每五分钟读取已有快照本身不会采集新的市场消息；后台更新需要本仓库的有效写入授权。
+
+Update facts only when supported by primary sources. Preserve report periods, distinguish forecasts from reported results, retain historical funding records, and never infer CXMT supplier relationships from products or fundraising alone. Unknown amounts remain undisclosed.
+
+仅凭一手资料更新事实，保留报告期，区分预测与已披露结果，保留历史融资记录；不根据产品或融资推断长鑫供货关系，未知金额保持未披露。
