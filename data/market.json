@@ -1,27 +1,22 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-09T23:48:42.198Z",
+  "lastCheckedAt": "2026-10-10T00:53:35.104Z",
   "lastChangedAt": "2026-10-09T21:51:48.589Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 12,
+    "watchlistCursor": 16,
     "lastReview": {
-      "attemptedAt": "2026-10-09T23:48:42.198Z",
+      "attemptedAt": "2026-10-10T00:53:35.104Z",
       "companies": [
-        "御微半导体",
-        "中科信",
-        "悦芯科技",
-        "晶亦精微"
+        "中欣晶圆",
+        "上海超硅",
+        "鑫华科技",
+        "徐州博康"
       ],
-      "unreadableCompanySites": [
-        "御微半导体",
-        "中科信",
-        "悦芯科技",
-        "晶亦精微"
-      ]
+      "unreadableCompanySites": []
     }
   },
   "sources": [
