@@ -1,23 +1,24 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-10T16:52:17.020Z",
-  "lastChangedAt": "2026-10-10T16:52:17.020Z",
+  "lastCheckedAt": "2026-10-10T17:45:05.358Z",
+  "lastChangedAt": "2026-10-10T17:45:05.358Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 38,
+    "watchlistCursor": 0,
     "lastReview": {
-      "attemptedAt": "2026-10-10T16:52:17.020Z",
+      "attemptedAt": "2026-10-10T17:45:05.358Z",
       "companies": [
-        "记忆科技",
-        "嘉合劲威",
-        "金胜维",
-        "字节跳动"
+        "阿里云",
+        "荣耀终端",
+        "OPPO",
+        "vivo"
       ],
       "unreadableCompanySites": [
-        "字节跳动"
+        "阿里云",
+        "OPPO"
       ]
     }
   },
@@ -41,7 +42,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-10T16:52:17.020Z",
+      "checkedAt": "2026-10-10T17:45:05.358Z",
       "status": "verified"
     },
     {
@@ -52,7 +53,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-10T16:52:17.020Z",
+      "checkedAt": "2026-10-10T17:45:05.358Z",
       "status": "verified"
     },
     {
@@ -186,6 +187,17 @@
       "publishedAt": "2026-09-14",
       "checkedAt": "2026-10-10T16:52:17.020Z",
       "status": "verified"
+    },
+    {
+      "id": "honor-middle-east-20261008",
+      "name": {
+        "en": "HONOR · Middle East market update",
+        "zh": "荣耀 · 中东市场表现公告"
+      },
+      "url": "https://www.honor.com/ae-en/news/honor-2nd-largest-smartphone-vendor-in-middle-east/",
+      "publishedAt": "2026-10-08",
+      "checkedAt": "2026-10-10T17:45:05.358Z",
+      "status": "verified"
     }
   ],
   "metrics": [
@@ -287,6 +299,19 @@
     }
   ],
   "news": [
+    {
+      "id": "honor-middle-east-20261008",
+      "date": "2026-10-08",
+      "title": {
+        "en": "HONOR reports growth and second-place ranking in the Middle East",
+        "zh": "荣耀披露中东市场增长并升至区域第二"
+      },
+      "summary": {
+        "en": "Citing Omdia, HONOR said its Middle East smartphone shipments grew 35% year over year in the first half of 2026 while the regional market declined 13%, moving the brand into second place. These are company-reported figures attributed to Omdia.",
+        "zh": "荣耀援引 Omdia 数据称，2026 年上半年其中东智能手机出货量同比增长 35%，同期区域市场下滑 13%，品牌升至区域第二。上述数据为公司披露并注明来自 Omdia。"
+      },
+      "sourceId": "honor-middle-east-20261008"
+    },
     {
       "id": "price-20260930",
       "date": "2026-09-30",
