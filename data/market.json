@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-10T05:52:49.270Z",
-  "lastChangedAt": "2026-10-10T04:50:32.322Z",
+  "lastCheckedAt": "2026-10-10T06:45:07.591Z",
+  "lastChangedAt": "2026-10-10T06:45:07.591Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 36,
+    "watchlistCursor": 40,
     "lastReview": {
-      "attemptedAt": "2026-10-10T05:52:49.270Z",
+      "attemptedAt": "2026-10-10T06:45:07.591Z",
       "companies": [
-        "忆芯科技",
-        "忆恒创源",
-        "记忆科技",
-        "嘉合劲威"
+        "金胜维",
+        "字节跳动",
+        "阿里云",
+        "荣耀终端"
       ],
       "unreadableCompanySites": []
     }
@@ -39,7 +39,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-10T05:52:49.270Z",
+      "checkedAt": "2026-10-10T06:45:07.591Z",
       "status": "verified"
     },
     {
@@ -117,6 +117,17 @@
       "url": "https://www.csrc.gov.cn/csrc/c105984/c7659693/content.shtml",
       "publishedAt": "2026-08-20",
       "checkedAt": "2026-10-10T04:50:32.322Z",
+      "status": "verified"
+    },
+    {
+      "id": "alibaba-ai-storage-20260929",
+      "name": {
+        "en": "Alibaba Cloud · Apsara 2026 AI storage portfolio",
+        "zh": "阿里云 · 2026 云栖大会 AI 存储产品"
+      },
+      "url": "https://www.alibabacloud.com/blog/alibaba-clouds-ai-storage-portfolio-five-purpose-built-solutions-from-apsara-2026_603603",
+      "publishedAt": "2026-09-29",
+      "checkedAt": "2026-10-10T06:45:07.591Z",
       "status": "verified"
     }
   ],
@@ -244,6 +255,19 @@
         "zh": "TrendForce 预测 2027 年高带宽内存（HBM）混合平均售价同比上涨 121%，原因包括供应受限及产品组合变化。这是预测，并非已实现价格。"
       },
       "sourceId": "trendforce-hbm-20260929"
+    },
+    {
+      "id": "alibaba-ai-storage-20260929",
+      "date": "2026-09-29",
+      "title": {
+        "en": "Alibaba Cloud details five storage products for AI workloads",
+        "zh": "阿里云披露五项面向 AI 负载的存储产品"
+      },
+      "summary": {
+        "en": "Alibaba Cloud's Apsara 2026 portfolio includes KVCacheStore, OSS Tables, CPFS, AgenticFS and enhanced EBS. The company states that its new CPFS supports up to 100 PiB per filesystem and reports a 69% reduction in AI storage costs; these are vendor-reported product claims, not market-wide results.",
+        "zh": "阿里云在 2026 云栖大会发布的产品组合包括 KVCacheStore、OSS Tables、CPFS、AgenticFS 及增强型 EBS。公司称新一代 CPFS 单文件系统最高支持 100 PiB，并可降低 69% 的 AI 存储成本；这些属于厂商披露的产品指标，并非全市场统计结果。"
+      },
+      "sourceId": "alibaba-ai-storage-20260929"
     },
     {
       "id": "g5-20260920",
@@ -675,6 +699,11 @@
       "date": "2026-10-10",
       "en": "Added the CSRC filing notice for Chipde's planned Hong Kong listing; preserved earlier financing history and reporting periods.",
       "zh": "新增芯德拟赴港上市的中国证监会备案通知；保留既有融资历史及报告期。"
+    },
+    {
+      "date": "2026-10-10",
+      "en": "Added Alibaba Cloud's Apsara 2026 AI storage portfolio with vendor-reported figures clearly identified.",
+      "zh": "新增阿里云 2026 云栖大会 AI 存储产品组合，并明确标注相关数字为厂商披露口径。"
     }
   ]
 }
