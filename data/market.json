@@ -1,25 +1,24 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-10T22:46:12.161Z",
-  "lastChangedAt": "2026-10-10T21:53:33.458Z",
+  "lastCheckedAt": "2026-10-10T23:51:19.112Z",
+  "lastChangedAt": "2026-10-10T23:51:19.112Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 20,
+    "watchlistCursor": 24,
     "lastReview": {
-      "attemptedAt": "2026-10-10T22:46:12.161Z",
+      "attemptedAt": "2026-10-10T23:51:19.112Z",
       "companies": [
-        "科华微电子",
-        "联仕新材",
-        "科利德",
-        "久策气体"
+        "迪思微电子",
+        "长江存储",
+        "福建晋华",
+        "武汉新芯"
       ],
       "unreadableCompanySites": [
-        "科华微电子",
-        "科利德",
-        "久策气体"
+        "迪思微电子",
+        "福建晋华"
       ]
     }
   },
@@ -43,7 +42,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-10T22:46:12.161Z",
+      "checkedAt": "2026-10-10T23:51:19.112Z",
       "status": "verified"
     },
     {
@@ -209,6 +208,17 @@
       "url": "https://www.ftwafer.com/news/details/366.html",
       "publishedAt": "2026-06-18",
       "checkedAt": "2026-10-10T21:53:33.458Z",
+      "status": "verified"
+    },
+    {
+      "id": "ymtc-ti600s-20260818",
+      "name": {
+        "en": "YMTC · ZHITAI Ti600s launch",
+        "zh": "长江存储 · 致态 Ti600s 发布"
+      },
+      "url": "https://www.ymtc.com/cn/news/64.html",
+      "publishedAt": "2026-08-18",
+      "checkedAt": "2026-10-10T23:51:19.112Z",
       "status": "verified"
     }
   ],
@@ -466,6 +476,19 @@
         "zh": "备案通知载明，芯德拟发行不超过 367,640,500 股境外上市普通股，并将 51 名股东持有的合计 693,909,187 股境内未上市股份申请全流通。该文件确认的是备案信息，不代表上市已经完成或对投资价值作出判断。"
       },
       "sourceId": "chipde-csrc-20260820"
+    },
+    {
+      "id": "ymtc-ti600s-20260818",
+      "date": "2026-08-18",
+      "title": {
+        "en": "YMTC launches the ZHITAI Ti600s SSD",
+        "zh": "长江存储发布致态 Ti600s 固态硬盘"
+      },
+      "summary": {
+        "en": "The Ti600s uses YMTC Xtacking 4.0 QLC NAND and offers capacities from 512GB to 4096GB. YMTC states sequential read and write speeds of up to 7,400MB/s and 6,900MB/s, respectively.",
+        "zh": "Ti600s 搭载长江存储晶栈® Xtacking® 4.0 QLC 闪存颗粒，提供 512GB 至 4096GB 容量；公司披露其顺序读写速度最高分别为 7400MB/s 和 6900MB/s。"
+      },
+      "sourceId": "ymtc-ti600s-20260818"
     },
     {
       "id": "yeestor-fms-20260814",
