@@ -1,23 +1,24 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-10T12:54:53.295Z",
-  "lastChangedAt": "2026-10-10T06:45:07.591Z",
+  "lastCheckedAt": "2026-10-10T13:52:45.235Z",
+  "lastChangedAt": "2026-10-10T13:52:45.235Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 22,
+    "watchlistCursor": 26,
     "lastReview": {
-      "attemptedAt": "2026-10-10T12:54:53.295Z",
+      "attemptedAt": "2026-10-10T13:52:45.235Z",
       "companies": [
-        "科利德",
-        "久策气体",
-        "迪思微电子",
-        "长江存储"
+        "福建晋华",
+        "武汉新芯",
+        "芯天下",
+        "昕原半导体"
       ],
       "unreadableCompanySites": [
-        "迪思微电子"
+        "福建晋华",
+        "昕原半导体"
       ]
     }
   },
@@ -41,7 +42,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-10T12:54:53.295Z",
+      "checkedAt": "2026-10-10T13:52:45.235Z",
       "status": "verified"
     },
     {
@@ -52,7 +53,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-10T12:54:53.295Z",
+      "checkedAt": "2026-10-10T13:52:45.235Z",
       "status": "verified"
     },
     {
@@ -130,6 +131,17 @@
       "url": "https://www.alibabacloud.com/blog/alibaba-clouds-ai-storage-portfolio-five-purpose-built-solutions-from-apsara-2026_603603",
       "publishedAt": "2026-09-29",
       "checkedAt": "2026-10-10T06:45:07.591Z",
+      "status": "verified"
+    },
+    {
+      "id": "xtx-xtd25w-20260924",
+      "name": {
+        "en": "XTX Technology · XTD25W product announcement",
+        "zh": "芯天下 · XTD25W 产品公告"
+      },
+      "url": "https://www.xtxtech.com/NewsAndEvents/info_itemid_274.html",
+      "publishedAt": "2026-09-24",
+      "checkedAt": "2026-10-10T13:52:45.235Z",
       "status": "verified"
     }
   ],
@@ -270,6 +282,19 @@
         "zh": "阿里云在 2026 云栖大会发布的产品组合包括 KVCacheStore、OSS Tables、CPFS、AgenticFS 及增强型 EBS。公司称新一代 CPFS 单文件系统最高支持 100 PiB，并可降低 69% 的 AI 存储成本；这些属于厂商披露的产品指标，并非全市场统计结果。"
       },
       "sourceId": "alibaba-ai-storage-20260929"
+    },
+    {
+      "id": "xtx-xtd25w-20260924",
+      "date": "2026-09-24",
+      "title": {
+        "en": "XTX Technology expands its wide-voltage SPI NOR Flash range",
+        "zh": "芯天下扩展宽压 SPI NOR Flash 产品线"
+      },
+      "summary": {
+        "en": "XTX Technology introduced 32 Mbit and 16 Mbit XTD25W-series Quad I/O SPI NOR Flash products. The company states that both support a 1.65–3.6 V supply range; these are vendor-reported product specifications.",
+        "zh": "芯天下推出 32 Mbit 与 16 Mbit 的 XTD25W 系列 Quad I/O SPI NOR Flash 产品。公司称两款产品均支持 1.65–3.6 V 供电范围；这些属于厂商披露的产品规格。"
+      },
+      "sourceId": "xtx-xtd25w-20260924"
     },
     {
       "id": "g5-20260920",
