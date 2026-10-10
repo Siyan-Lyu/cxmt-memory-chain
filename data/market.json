@@ -1,24 +1,23 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-10T03:45:36.321Z",
-  "lastChangedAt": "2026-10-09T21:51:48.589Z",
+  "lastCheckedAt": "2026-10-10T04:50:32.322Z",
+  "lastChangedAt": "2026-10-10T04:50:32.322Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 28,
+    "watchlistCursor": 32,
     "lastReview": {
-      "attemptedAt": "2026-10-10T03:45:36.321Z",
+      "attemptedAt": "2026-10-10T04:50:32.322Z",
       "companies": [
-        "芯天下",
-        "昕原半导体",
-        "时代全芯",
-        "知存科技"
+        "芯德半导体",
+        "华进半导体",
+        "英韧科技",
+        "得一微"
       ],
       "unreadableCompanySites": [
-        "昕原半导体",
-        "时代全芯"
+        "华进半导体"
       ]
     }
   },
@@ -42,7 +41,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-10T03:45:36.321Z",
+      "checkedAt": "2026-10-10T04:50:32.322Z",
       "status": "verified"
     },
     {
@@ -53,7 +52,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-10T03:45:36.321Z",
+      "checkedAt": "2026-10-10T04:50:32.322Z",
       "status": "verified"
     },
     {
@@ -109,6 +108,17 @@
       "url": "https://www.univista-isg.com/site/news_detail/576",
       "publishedAt": "2026-09-10",
       "checkedAt": "2026-10-09T21:51:48.589Z",
+      "status": "verified"
+    },
+    {
+      "id": "chipde-csrc-20260820",
+      "name": {
+        "en": "CSRC · Chipde overseas-listing filing",
+        "zh": "中国证监会 · 芯德境外上市备案"
+      },
+      "url": "https://www.csrc.gov.cn/csrc/c105984/c7659693/content.shtml",
+      "publishedAt": "2026-08-20",
+      "checkedAt": "2026-10-10T04:50:32.322Z",
       "status": "verified"
     }
   ],
@@ -275,6 +285,19 @@
         "zh": "长鑫披露 16 GB LPDDR6 封装产品量产，最高数据速率 12,800 Mbps。它仍属于运行内存 DRAM，而非 NAND 存储空间。"
       },
       "sourceId": "cxmt-lpddr6"
+    },
+    {
+      "id": "chipde-filing-20260820",
+      "date": "2026-08-20",
+      "title": {
+        "en": "Chipde receives CSRC filing notice for planned Hong Kong listing",
+        "zh": "芯德取得中国证监会境外上市备案通知"
+      },
+      "summary": {
+        "en": "The filing records a planned issue of up to 367,640,500 overseas-listed ordinary shares and full circulation for 693,909,187 existing domestic shares held by 51 shareholders. It confirms filing information, not investment value or completion of the listing.",
+        "zh": "备案通知载明，芯德拟发行不超过 367,640,500 股境外上市普通股，并将 51 名股东持有的合计 693,909,187 股境内未上市股份申请全流通。该文件确认的是备案信息，不代表上市已经完成或对投资价值作出判断。"
+      },
+      "sourceId": "chipde-csrc-20260820"
     },
     {
       "id": "listed-20260727",
@@ -649,6 +672,11 @@
       "date": "2026-10-08",
       "en": "Added bilingual presentation and six sourced market indicators; retained original historical periods.",
       "zh": "新增双语展示与六项有来源的市场指标；保留原有历史报告期。"
+    },
+    {
+      "date": "2026-10-10",
+      "en": "Added the CSRC filing notice for Chipde's planned Hong Kong listing; preserved earlier financing history and reporting periods.",
+      "zh": "新增芯德拟赴港上市的中国证监会备案通知；保留既有融资历史及报告期。"
     }
   ]
 }
