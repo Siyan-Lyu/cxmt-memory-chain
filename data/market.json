@@ -1,23 +1,24 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-10T01:46:08.403Z",
+  "lastCheckedAt": "2026-10-10T02:48:12.696Z",
   "lastChangedAt": "2026-10-09T21:51:48.589Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 20,
+    "watchlistCursor": 24,
     "lastReview": {
-      "attemptedAt": "2026-10-10T01:46:08.403Z",
+      "attemptedAt": "2026-10-10T02:48:12.696Z",
       "companies": [
-        "科华微电子",
-        "联仕新材",
-        "科利德",
-        "久策气体"
+        "迪思微电子",
+        "长江存储",
+        "福建晋华",
+        "武汉新芯"
       ],
       "unreadableCompanySites": [
-        "科华微电子"
+        "迪思微电子",
+        "福建晋华"
       ]
     }
   },
