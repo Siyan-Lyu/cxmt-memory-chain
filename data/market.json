@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-10T20:53:08.718Z",
-  "lastChangedAt": "2026-10-10T17:45:05.358Z",
+  "lastCheckedAt": "2026-10-10T21:53:33.458Z",
+  "lastChangedAt": "2026-10-10T21:53:33.458Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 12,
+    "watchlistCursor": 16,
     "lastReview": {
-      "attemptedAt": "2026-10-10T20:53:08.718Z",
+      "attemptedAt": "2026-10-10T21:53:33.458Z",
       "companies": [
-        "御微半导体",
-        "中科信",
-        "悦芯科技",
-        "晶亦精微"
+        "中欣晶圆",
+        "上海超硅",
+        "鑫华科技",
+        "徐州博康"
       ],
       "unreadableCompanySites": [
-        "御微半导体",
-        "悦芯科技"
+        "上海超硅",
+        "鑫华科技"
       ]
     }
   },
@@ -42,7 +42,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-10T20:53:08.718Z",
+      "checkedAt": "2026-10-10T21:53:33.458Z",
       "status": "verified"
     },
     {
@@ -53,7 +53,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-10T20:53:08.718Z",
+      "checkedAt": "2026-10-10T21:53:33.458Z",
       "status": "verified"
     },
     {
@@ -197,6 +197,17 @@
       "url": "https://www.honor.com/ae-en/news/honor-2nd-largest-smartphone-vendor-in-middle-east/",
       "publishedAt": "2026-10-08",
       "checkedAt": "2026-10-10T17:45:05.358Z",
+      "status": "verified"
+    },
+    {
+      "id": "ftwafer-q1-20260618",
+      "name": {
+        "en": "FT Wafer · 2026 first-quarter operating update",
+        "zh": "中欣晶圆 · 2026 年第一季度经营更新"
+      },
+      "url": "https://www.ftwafer.com/news/details/366.html",
+      "publishedAt": "2026-06-18",
+      "checkedAt": "2026-10-10T21:53:33.458Z",
       "status": "verified"
     }
   ],
@@ -480,6 +491,19 @@
         "zh": "交易所公告确认其于 2026 年 7 月 27 日开始交易，证券代码 688825。此前上市计划类信息保留为历史记录。"
       },
       "sourceId": "cxmt-listing"
+    },
+    {
+      "id": "ftwafer-q1-20260618",
+      "date": "2026-06-18",
+      "title": {
+        "en": "FT Wafer reports 49.44% first-quarter revenue growth",
+        "zh": "中欣晶圆一季度营收同比增长 49.44%"
+      },
+      "summary": {
+        "en": "The company reported first-quarter 2026 revenue of RMB 588 million, up 49.44% year on year, while its loss narrowed 33.85%. It said 12-inch wafers had become the majority of its shipments.",
+        "zh": "公司披露 2026 年第一季度营业收入 5.88 亿元，同比增长 49.44%，亏损同比收窄 33.85%；公司称 12 英寸硅片已成为其出货主力。"
+      },
+      "sourceId": "ftwafer-q1-20260618"
     }
   ],
   "cxmt": {
