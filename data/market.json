@@ -1,24 +1,25 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-10T13:52:45.235Z",
+  "lastCheckedAt": "2026-10-10T14:50:03.259Z",
   "lastChangedAt": "2026-10-10T13:52:45.235Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 26,
+    "watchlistCursor": 30,
     "lastReview": {
-      "attemptedAt": "2026-10-10T13:52:45.235Z",
+      "attemptedAt": "2026-10-10T14:50:03.259Z",
       "companies": [
-        "福建晋华",
-        "武汉新芯",
-        "芯天下",
-        "昕原半导体"
+        "时代全芯",
+        "知存科技",
+        "芯德半导体",
+        "华进半导体"
       ],
       "unreadableCompanySites": [
-        "福建晋华",
-        "昕原半导体"
+        "时代全芯",
+        "知存科技",
+        "华进半导体"
       ]
     }
   },
@@ -42,7 +43,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-10T13:52:45.235Z",
+      "checkedAt": "2026-10-10T14:50:03.259Z",
       "status": "verified"
     },
     {
@@ -53,7 +54,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-10T13:52:45.235Z",
+      "checkedAt": "2026-10-10T14:50:03.259Z",
       "status": "verified"
     },
     {
@@ -119,7 +120,7 @@
       },
       "url": "https://www.csrc.gov.cn/csrc/c105984/c7659693/content.shtml",
       "publishedAt": "2026-08-20",
-      "checkedAt": "2026-10-10T04:50:32.322Z",
+      "checkedAt": "2026-10-10T14:50:03.259Z",
       "status": "verified"
     },
     {
