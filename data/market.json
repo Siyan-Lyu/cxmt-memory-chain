@@ -1,26 +1,24 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-10T09:46:43.252Z",
+  "lastCheckedAt": "2026-10-10T10:52:10.151Z",
   "lastChangedAt": "2026-10-10T06:45:07.591Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 10,
+    "watchlistCursor": 14,
     "lastReview": {
-      "attemptedAt": "2026-10-10T09:46:43.252Z",
+      "attemptedAt": "2026-10-10T10:52:10.151Z",
       "companies": [
-        "睿励科学仪器",
-        "埃芯半导体",
-        "御微半导体",
-        "中科信"
+        "悦芯科技",
+        "晶亦精微",
+        "中欣晶圆",
+        "上海超硅"
       ],
       "unreadableCompanySites": [
-        "睿励科学仪器",
-        "埃芯半导体",
-        "御微半导体",
-        "中科信"
+        "悦芯科技",
+        "晶亦精微"
       ]
     }
   },
@@ -44,7 +42,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-10T09:46:43.252Z",
+      "checkedAt": "2026-10-10T10:52:10.151Z",
       "status": "verified"
     },
     {
@@ -55,7 +53,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-10T09:46:43.252Z",
+      "checkedAt": "2026-10-10T10:52:10.151Z",
       "status": "verified"
     },
     {
