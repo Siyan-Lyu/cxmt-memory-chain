@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-10T18:51:18.993Z",
+  "lastCheckedAt": "2026-10-10T19:45:24.121Z",
   "lastChangedAt": "2026-10-10T17:45:05.358Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 4,
+    "watchlistCursor": 8,
     "lastReview": {
-      "attemptedAt": "2026-10-10T18:51:18.993Z",
+      "attemptedAt": "2026-10-10T19:45:24.121Z",
       "companies": [
-        "合见工软",
-        "芯华章",
-        "芯和半导体",
-        "芯愿景"
+        "上海微电子",
+        "东方晶源",
+        "睿励科学仪器",
+        "埃芯半导体"
       ],
       "unreadableCompanySites": [
-        "芯华章",
-        "芯愿景"
+        "睿励科学仪器",
+        "埃芯半导体"
       ]
     }
   },
@@ -42,7 +42,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-10T18:51:18.993Z",
+      "checkedAt": "2026-10-10T19:45:24.121Z",
       "status": "verified"
     },
     {
@@ -53,7 +53,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-10T18:51:18.993Z",
+      "checkedAt": "2026-10-10T19:45:24.121Z",
       "status": "verified"
     },
     {
