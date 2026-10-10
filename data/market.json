@@ -1,22 +1,24 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-10T00:53:35.104Z",
+  "lastCheckedAt": "2026-10-10T01:46:08.403Z",
   "lastChangedAt": "2026-10-09T21:51:48.589Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 16,
+    "watchlistCursor": 20,
     "lastReview": {
-      "attemptedAt": "2026-10-10T00:53:35.104Z",
+      "attemptedAt": "2026-10-10T01:46:08.403Z",
       "companies": [
-        "中欣晶圆",
-        "上海超硅",
-        "鑫华科技",
-        "徐州博康"
+        "科华微电子",
+        "联仕新材",
+        "科利德",
+        "久策气体"
       ],
-      "unreadableCompanySites": []
+      "unreadableCompanySites": [
+        "科华微电子"
+      ]
     }
   },
   "sources": [
