@@ -1,22 +1,24 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-10T15:46:05.090Z",
-  "lastChangedAt": "2026-10-10T15:46:05.090Z",
+  "lastCheckedAt": "2026-10-10T16:52:17.020Z",
+  "lastChangedAt": "2026-10-10T16:52:17.020Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 34,
+    "watchlistCursor": 38,
     "lastReview": {
-      "attemptedAt": "2026-10-10T15:46:05.090Z",
+      "attemptedAt": "2026-10-10T16:52:17.020Z",
       "companies": [
-        "英韧科技",
-        "得一微",
-        "忆芯科技",
-        "忆恒创源"
+        "记忆科技",
+        "嘉合劲威",
+        "金胜维",
+        "字节跳动"
       ],
-      "unreadableCompanySites": []
+      "unreadableCompanySites": [
+        "字节跳动"
+      ]
     }
   },
   "sources": [
@@ -39,7 +41,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-10T15:46:05.090Z",
+      "checkedAt": "2026-10-10T16:52:17.020Z",
       "status": "verified"
     },
     {
@@ -50,7 +52,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-10T15:46:05.090Z",
+      "checkedAt": "2026-10-10T16:52:17.020Z",
       "status": "verified"
     },
     {
@@ -172,6 +174,17 @@
       "url": "https://www.yeestor.com/news/detail/i-269.html",
       "publishedAt": "2026-08-14",
       "checkedAt": "2026-10-10T15:46:05.090Z",
+      "status": "verified"
+    },
+    {
+      "id": "kingspec-ifa-20260914",
+      "name": {
+        "en": "KingSpec · IFA 2026 storage announcement",
+        "zh": "金胜维 · IFA 2026 存储产品公告"
+      },
+      "url": "https://www.kingspec.com/news/kingspec-heads-to-ifa-2026-with-next-generation-ssd-and-ddr5-solutions.html",
+      "publishedAt": "2026-09-14",
+      "checkedAt": "2026-10-10T16:52:17.020Z",
       "status": "verified"
     }
   ],
@@ -338,6 +351,19 @@
         "zh": "长鑫披露有源区半节距 11.95 nm，并推出单裸片 24 Gb 的 LPDDR5X。半节距是具体测量指标，不代表芯片所有结构的尺寸。"
       },
       "sourceId": "cxmt-g5"
+    },
+    {
+      "id": "kingspec-ifa-20260914",
+      "date": "2026-09-14",
+      "title": {
+        "en": "KingSpec presents PCIe 5.0 SSD and DDR5 products at IFA 2026",
+        "zh": "金胜维在 IFA 2026 展示 PCIe 5.0 SSD 与 DDR5 产品"
+      },
+      "summary": {
+        "en": "KingSpec displayed its VP14000 and X500 PCIe 5.0 SSDs, X400 RGB PCIe 4.0 SSD and TEMPLAR DDR5 memory at IFA 2026. The cited transfer rates are vendor-reported product specifications.",
+        "zh": "金胜维在 IFA 2026 展示了 VP14000、X500 PCIe 5.0 SSD、X400 RGB PCIe 4.0 SSD 及 TEMPLAR DDR5 内存。相关传输速率属于厂商披露的产品规格。"
+      },
+      "sourceId": "kingspec-ifa-20260914"
     },
     {
       "id": "univista-goat-20260910",
