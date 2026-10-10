@@ -1,24 +1,22 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-10T04:50:32.322Z",
+  "lastCheckedAt": "2026-10-10T05:52:49.270Z",
   "lastChangedAt": "2026-10-10T04:50:32.322Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 32,
+    "watchlistCursor": 36,
     "lastReview": {
-      "attemptedAt": "2026-10-10T04:50:32.322Z",
+      "attemptedAt": "2026-10-10T05:52:49.270Z",
       "companies": [
-        "芯德半导体",
-        "华进半导体",
-        "英韧科技",
-        "得一微"
+        "忆芯科技",
+        "忆恒创源",
+        "记忆科技",
+        "嘉合劲威"
       ],
-      "unreadableCompanySites": [
-        "华进半导体"
-      ]
+      "unreadableCompanySites": []
     }
   },
   "sources": [
@@ -41,7 +39,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-10T04:50:32.322Z",
+      "checkedAt": "2026-10-10T05:52:49.270Z",
       "status": "verified"
     },
     {
@@ -52,7 +50,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-10T04:50:32.322Z",
+      "checkedAt": "2026-10-10T05:52:49.270Z",
       "status": "verified"
     },
     {
