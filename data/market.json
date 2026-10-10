@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-10T02:48:12.696Z",
+  "lastCheckedAt": "2026-10-10T03:45:36.321Z",
   "lastChangedAt": "2026-10-09T21:51:48.589Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 24,
+    "watchlistCursor": 28,
     "lastReview": {
-      "attemptedAt": "2026-10-10T02:48:12.696Z",
+      "attemptedAt": "2026-10-10T03:45:36.321Z",
       "companies": [
-        "迪思微电子",
-        "长江存储",
-        "福建晋华",
-        "武汉新芯"
+        "芯天下",
+        "昕原半导体",
+        "时代全芯",
+        "知存科技"
       ],
       "unreadableCompanySites": [
-        "迪思微电子",
-        "福建晋华"
+        "昕原半导体",
+        "时代全芯"
       ]
     }
   },
@@ -42,7 +42,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-09T21:51:48.589Z",
+      "checkedAt": "2026-10-10T03:45:36.321Z",
       "status": "verified"
     },
     {
@@ -53,7 +53,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-09T21:51:48.589Z",
+      "checkedAt": "2026-10-10T03:45:36.321Z",
       "status": "verified"
     },
     {
@@ -97,7 +97,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260929-13255.html",
       "publishedAt": "2026-09-29",
-      "checkedAt": "2026-10-09T21:51:48.589Z",
+      "checkedAt": "2026-10-10T03:45:36.321Z",
       "status": "verified"
     },
     {
