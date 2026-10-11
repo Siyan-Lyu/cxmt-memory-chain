@@ -1,24 +1,23 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-11T17:45:16.531Z",
-  "lastChangedAt": "2026-10-11T16:51:58.820Z",
+  "lastCheckedAt": "2026-10-11T18:46:43.381Z",
+  "lastChangedAt": "2026-10-11T18:46:43.381Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 12,
+    "watchlistCursor": 16,
     "lastReview": {
-      "attemptedAt": "2026-10-11T17:45:16.531Z",
+      "attemptedAt": "2026-10-11T18:46:43.381Z",
       "companies": [
-        "御微半导体",
-        "中科信",
-        "悦芯科技",
-        "晶亦精微"
+        "中欣晶圆",
+        "上海超硅",
+        "鑫华科技",
+        "徐州博康"
       ],
       "unreadableCompanySites": [
-        "御微半导体",
-        "中科信"
+        "鑫华科技"
       ]
     }
   },
@@ -42,7 +41,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-11T17:45:16.531Z",
+      "checkedAt": "2026-10-11T18:46:43.381Z",
       "status": "verified"
     },
     {
@@ -53,7 +52,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-11T17:45:16.531Z",
+      "checkedAt": "2026-10-11T18:46:43.381Z",
       "status": "verified"
     },
     {
@@ -326,6 +325,17 @@
       "url": "https://www.dfjy-jx.com/article/112/2.html",
       "publishedAt": "2026-04-01",
       "checkedAt": "2026-10-11T16:51:58.820Z",
+      "status": "verified"
+    },
+    {
+      "id": "ftwafer-h1-20260817",
+      "name": {
+        "en": "FT Wafer · first-half results and July capacity update",
+        "zh": "中欣晶圆 · 上半年业绩及 7 月产能更新"
+      },
+      "url": "https://www.ftwafer.com/news/details/378.html",
+      "publishedAt": "2026-08-17",
+      "checkedAt": "2026-10-11T18:46:43.381Z",
       "status": "verified"
     }
   ],
@@ -765,6 +775,19 @@
         "zh": "东方晶源称，公司与一家未具名的国内先进存储厂商签署了近 2 亿元长期商业合同，涉及 PanGen 计算光刻平台及 PanGen vPWQ AI 刻蚀模型。公告未披露客户名称，因此不能据此认定其与长鑫存在业务关系。"
       },
       "sourceId": "djel-memory-order-20260401"
+    },
+    {
+      "id": "ftwafer-h1-20260817",
+      "date": "2026-08-17",
+      "title": {
+        "en": "FT Wafer reports first-half revenue growth and a July capacity record",
+        "zh": "中欣晶圆披露上半年营收增长及 7 月产能新高"
+      },
+      "summary": {
+        "en": "FT Wafer said its first-half 2026 revenue reached RMB 1.234 billion, up 57.69% year on year, while core silicon-wafer revenue rose 57.45%. The company also reported July production capacity above 1.3 million wafers and nine invention patents granted during that month. These are company-reported figures and do not establish a supplier relationship with CXMT.",
+        "zh": "中欣晶圆称，2026 年上半年营业总收入为 12.34 亿元，同比增长 57.69%，核心硅片业务收入同比增长 57.45%。公司还披露 7 月产能突破 130 万片，并在当月获得 9 项发明专利授权。以上均为公司披露数据，不构成其与长鑫存在供货关系的证据。"
+      },
+      "sourceId": "ftwafer-h1-20260817"
     }
   ],
   "cxmt": {
@@ -1166,6 +1189,11 @@
       "date": "2026-10-11",
       "en": "Added DJEL's company-reported nearly RMB 200 million contract with an unnamed advanced-memory manufacturer without inferring a CXMT relationship.",
       "zh": "新增东方晶源披露的近 2 亿元先进存储厂商合同，并保留客户匿名信息，不推断其与长鑫存在业务关系。"
+    },
+    {
+      "date": "2026-10-11",
+      "en": "Added FT Wafer's verified first-half revenue, July capacity and patent disclosure; preserved Xinhua Semiconductor data after its exchange PDF timed out.",
+      "zh": "新增已核实的中欣晶圆上半年营收、7 月产能及专利披露；鑫华科技交易所 PDF 访问超时，因此保留其原有数据。"
     }
   ]
 }
