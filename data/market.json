@@ -1,24 +1,23 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-11T19:52:02.583Z",
+  "lastCheckedAt": "2026-10-11T20:50:23.206Z",
   "lastChangedAt": "2026-10-11T18:46:43.381Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 20,
+    "watchlistCursor": 24,
     "lastReview": {
-      "attemptedAt": "2026-10-11T19:52:02.583Z",
+      "attemptedAt": "2026-10-11T20:50:23.206Z",
       "companies": [
-        "科华微电子",
-        "联仕新材",
-        "科利德",
-        "久策气体"
+        "迪思微电子",
+        "长江存储",
+        "福建晋华",
+        "武汉新芯"
       ],
       "unreadableCompanySites": [
-        "科华微电子",
-        "久策气体"
+        "迪思微电子"
       ]
     }
   },
@@ -42,7 +41,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-11T19:52:02.583Z",
+      "checkedAt": "2026-10-11T20:50:23.206Z",
       "status": "verified"
     },
     {
@@ -53,7 +52,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-11T19:52:02.583Z",
+      "checkedAt": "2026-10-11T20:50:23.206Z",
       "status": "verified"
     },
     {
@@ -218,7 +217,7 @@
       },
       "url": "https://www.ymtc.com/cn/news/64.html",
       "publishedAt": "2026-08-18",
-      "checkedAt": "2026-10-11T09:52:09.249Z",
+      "checkedAt": "2026-10-11T20:50:23.206Z",
       "status": "verified"
     },
     {
