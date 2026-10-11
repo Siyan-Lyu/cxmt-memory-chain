@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-11T09:52:09.249Z",
+  "lastCheckedAt": "2026-10-11T10:46:39.676Z",
   "lastChangedAt": "2026-10-11T08:48:40.567Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 22,
+    "watchlistCursor": 26,
     "lastReview": {
-      "attemptedAt": "2026-10-11T09:52:09.249Z",
+      "attemptedAt": "2026-10-11T10:46:39.676Z",
       "companies": [
-        "科利德",
-        "久策气体",
-        "迪思微电子",
-        "长江存储"
+        "福建晋华",
+        "武汉新芯",
+        "芯天下",
+        "昕原半导体"
       ],
       "unreadableCompanySites": [
-        "迪思微电子"
+        "昕原半导体"
       ]
     }
   },
@@ -41,7 +41,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-11T09:52:09.249Z",
+      "checkedAt": "2026-10-11T10:46:39.676Z",
       "status": "verified"
     },
     {
@@ -52,7 +52,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-11T09:52:09.249Z",
+      "checkedAt": "2026-10-11T10:46:39.676Z",
       "status": "verified"
     },
     {
@@ -140,7 +140,7 @@
       },
       "url": "https://www.xtxtech.com/NewsAndEvents/info_itemid_274.html",
       "publishedAt": "2026-09-24",
-      "checkedAt": "2026-10-11T00:53:23.316Z",
+      "checkedAt": "2026-10-11T10:46:39.676Z",
       "status": "verified"
     },
     {
