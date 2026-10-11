@@ -1,25 +1,23 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-11T06:48:44.999Z",
-  "lastChangedAt": "2026-10-11T06:48:44.999Z",
+  "lastCheckedAt": "2026-10-11T07:48:59.256Z",
+  "lastChangedAt": "2026-10-11T07:48:59.256Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 10,
+    "watchlistCursor": 14,
     "lastReview": {
-      "attemptedAt": "2026-10-11T06:48:44.999Z",
+      "attemptedAt": "2026-10-11T07:48:59.256Z",
       "companies": [
-        "睿励科学仪器",
-        "埃芯半导体",
-        "御微半导体",
-        "中科信"
+        "悦芯科技",
+        "晶亦精微",
+        "中欣晶圆",
+        "上海超硅"
       ],
       "unreadableCompanySites": [
-        "睿励科学仪器",
-        "御微半导体",
-        "中科信"
+        "晶亦精微"
       ]
     }
   },
@@ -43,7 +41,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-11T06:48:44.999Z",
+      "checkedAt": "2026-10-11T07:48:59.256Z",
       "status": "verified"
     },
     {
@@ -54,7 +52,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-11T06:48:44.999Z",
+      "checkedAt": "2026-10-11T07:48:59.256Z",
       "status": "verified"
     },
     {
@@ -208,7 +206,7 @@
       },
       "url": "https://www.ftwafer.com/news/details/366.html",
       "publishedAt": "2026-06-18",
-      "checkedAt": "2026-10-10T21:53:33.458Z",
+      "checkedAt": "2026-10-11T07:48:59.256Z",
       "status": "verified"
     },
     {
@@ -265,6 +263,26 @@
       "publishedAt": "2026-07-31",
       "checkedAt": "2026-10-11T06:48:44.999Z",
       "status": "verified"
+    },
+    {
+      "id": "tbt-preipo-20260420",
+      "name": {
+        "en": "Nanjing Innovation Investment Group · TBT Pre-IPO financing",
+        "zh": "南京市创新投资集团 · 悦芯科技 Pre-IPO 轮融资"
+      },
+      "url": "https://www.njicg.com/article/1211",
+      "publishedAt": "2026-04-20",
+      "checkedAt": "2026-10-11T07:48:59.256Z"
+    },
+    {
+      "id": "ftwafer-sales-20260702",
+      "name": {
+        "en": "FT Wafer · June 2026 sales update",
+        "zh": "中欣晶圆 · 2026 年 6 月销量更新"
+      },
+      "url": "https://www.ftwafer.com/news/details/371.html",
+      "publishedAt": "2026-07-02",
+      "checkedAt": "2026-10-11T07:48:59.256Z"
     }
   ],
   "metrics": [
@@ -393,19 +411,6 @@
       "sourceId": "trendforce-q4"
     },
     {
-      "id": "hbm-20260929",
-      "date": "2026-09-29",
-      "title": {
-        "en": "TrendForce raises its 2027 high-bandwidth memory price forecast",
-        "zh": "TrendForce 上调 2027 年高带宽内存价格预测"
-      },
-      "summary": {
-        "en": "TrendForce forecasts a 121% year-on-year increase in the blended average selling price of high-bandwidth memory (HBM) in 2027, reflecting supply constraints and a changing product mix. This is a forecast, not a realized price.",
-        "zh": "TrendForce 预测 2027 年高带宽内存（HBM）混合平均售价同比上涨 121%，原因包括供应受限及产品组合变化。这是预测，并非已实现价格。"
-      },
-      "sourceId": "trendforce-hbm-20260929"
-    },
-    {
       "id": "alibaba-ai-storage-20260929",
       "date": "2026-09-29",
       "title": {
@@ -430,6 +435,19 @@
         "zh": "长鑫拟使用 130 亿元超募资金建设技术研发项目，并投入 50 亿元建设晶圆后道测试及模组组装二期项目。9 月 29 日公告明确该议案尚需股东会审议；上述金额为拟投入资金，并非已完成支出。"
       },
       "sourceId": "cxmt-projects-20260929"
+    },
+    {
+      "id": "hbm-20260929",
+      "date": "2026-09-29",
+      "title": {
+        "en": "TrendForce raises its 2027 high-bandwidth memory price forecast",
+        "zh": "TrendForce 上调 2027 年高带宽内存价格预测"
+      },
+      "summary": {
+        "en": "TrendForce forecasts a 121% year-on-year increase in the blended average selling price of high-bandwidth memory (HBM) in 2027, reflecting supply constraints and a changing product mix. This is a forecast, not a realized price.",
+        "zh": "TrendForce 预测 2027 年高带宽内存（HBM）混合平均售价同比上涨 121%，原因包括供应受限及产品组合变化。这是预测，并非已实现价格。"
+      },
+      "sourceId": "trendforce-hbm-20260929"
     },
     {
       "id": "xtx-xtd25w-20260924",
@@ -614,6 +632,19 @@
       "sourceId": "cxmt-listing"
     },
     {
+      "id": "ftwafer-sales-20260702",
+      "date": "2026-07-02",
+      "title": {
+        "en": "FT Wafer reports June monthly wafer sales above 1.25 million",
+        "zh": "中欣晶圆披露 6 月硅片月销量突破 125 万片"
+      },
+      "summary": {
+        "en": "FT Wafer said its June 2026 monthly sales across all semiconductor-wafer products exceeded 1.25 million units, including more than 400,000 12-inch wafers. These are company-reported sales figures and do not establish a supplier relationship with CXMT.",
+        "zh": "中欣晶圆称，2026 年 6 月全品类半导体硅片月销量突破 125 万片，其中 12 英寸硅片月销量超过 40 万片。以上属于公司披露的销量数据，不构成其与长鑫存在供货关系的证据。"
+      },
+      "sourceId": "ftwafer-sales-20260702"
+    },
+    {
       "id": "ftwafer-q1-20260618",
       "date": "2026-06-18",
       "title": {
@@ -625,6 +656,19 @@
         "zh": "公司披露 2026 年第一季度营业收入 5.88 亿元，同比增长 49.44%，亏损同比收窄 33.85%；公司称 12 英寸硅片已成为其出货主力。"
       },
       "sourceId": "ftwafer-q1-20260618"
+    },
+    {
+      "id": "tbt-preipo-20260420",
+      "date": "2026-04-20",
+      "title": {
+        "en": "TBT completes Pre-IPO financing of more than RMB 1 billion",
+        "zh": "悦芯科技完成超 10 亿元 Pre-IPO 轮融资"
+      },
+      "summary": {
+        "en": "Nanjing Innovation Investment Group said TBT completed Pre-IPO financing exceeding RMB 1 billion. The announcement says proceeds will support semiconductor equipment development, including its TM8000 memory-chip test systems, and reports industrial-scale deliveries across its tester portfolio to more than 200 customers. It does not establish a supplier relationship with CXMT.",
+        "zh": "南京市创新投资集团披露，悦芯科技完成超 10 亿元 Pre-IPO 轮融资，资金将用于半导体核心装备布局及高端测试设备研发。公告提及其 TM8000 系列存储芯片测试设备，并称测试设备产品组合已向超过 200 家客户实现规模供货；该公告不构成其与长鑫存在供货关系的证据。"
+      },
+      "sourceId": "tbt-preipo-20260420"
     }
   ],
   "cxmt": {
@@ -1006,6 +1050,11 @@
       "date": "2026-10-11",
       "en": "Added Eosemi's verified Series B+ financing announcement without inferring an undisclosed amount or supplier relationship.",
       "zh": "新增已核实的埃芯半导体 B+ 轮融资公告，不推断未披露金额或供货关系。"
+    },
+    {
+      "date": "2026-10-11",
+      "en": "Added verified TBT Pre-IPO financing and FT Wafer June sales disclosures; retained Jingyi data after its exchange PDF could not be read.",
+      "zh": "新增已核实的悦芯科技 Pre-IPO 轮融资及中欣晶圆 6 月销量披露；晶亦精微交易所 PDF 无法读取，因此保留原有数据。"
     }
   ]
 }
