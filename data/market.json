@@ -1,25 +1,22 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-11T15:54:50.421Z",
-  "lastChangedAt": "2026-10-11T14:52:46.724Z",
+  "lastCheckedAt": "2026-10-11T16:51:58.820Z",
+  "lastChangedAt": "2026-10-11T16:51:58.820Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 4,
+    "watchlistCursor": 8,
     "lastReview": {
-      "attemptedAt": "2026-10-11T15:54:50.421Z",
+      "attemptedAt": "2026-10-11T16:51:58.820Z",
       "companies": [
-        "合见工软",
-        "芯华章",
-        "芯和半导体",
-        "芯愿景"
+        "上海微电子",
+        "东方晶源",
+        "睿励科学仪器",
+        "埃芯半导体"
       ],
-      "unreadableCompanySites": [
-        "芯华章",
-        "芯愿景"
-      ]
+      "unreadableCompanySites": []
     }
   },
   "sources": [
@@ -42,7 +39,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-11T15:54:50.421Z",
+      "checkedAt": "2026-10-11T16:51:58.820Z",
       "status": "verified"
     },
     {
@@ -53,7 +50,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-11T15:54:50.421Z",
+      "checkedAt": "2026-10-11T16:51:58.820Z",
       "status": "verified"
     },
     {
@@ -262,7 +259,7 @@
       },
       "url": "https://www.kpcapital.cn/news_view.aspx?Fid=t25%3A4%3A25&Id=850&TypeId=4",
       "publishedAt": "2026-07-31",
-      "checkedAt": "2026-10-11T06:48:44.999Z",
+      "checkedAt": "2026-10-11T16:51:58.820Z",
       "status": "verified"
     },
     {
@@ -315,6 +312,17 @@
       "url": "https://www.vivo.com/ke/en/about-vivo/news-detail?id=1628",
       "publishedAt": "2026-09-21",
       "checkedAt": "2026-10-11T14:52:46.724Z",
+      "status": "verified"
+    },
+    {
+      "id": "djel-memory-order-20260401",
+      "name": {
+        "en": "DJEL · advanced-memory customer order announcement",
+        "zh": "东方晶源 · 先进存储客户订单公告"
+      },
+      "url": "https://www.dfjy-jx.com/article/112/2.html",
+      "publishedAt": "2026-04-01",
+      "checkedAt": "2026-10-11T16:51:58.820Z",
       "status": "verified"
     }
   ],
@@ -741,6 +749,19 @@
         "zh": "vivo 在中国发布 X500、X500 Pro 和 X500 Pro Max。公司披露的规格包括 OriginOS 7、联发科天玑 9600 系列芯片、其中两款机型配备 7,500 至 7,800mAh 电池，以及以影像为重点的硬件；该来源未披露地区售价和上市时间。"
       },
       "sourceId": "vivo-x500-20260921"
+    },
+    {
+      "id": "djel-memory-order-20260401",
+      "date": "2026-04-01",
+      "title": {
+        "en": "DJEL announces a nearly RMB 200 million long-term memory-industry contract",
+        "zh": "东方晶源披露近 2 亿元存储行业长期合同"
+      },
+      "summary": {
+        "en": "DJEL said it signed a long-term commercial contract worth nearly RMB 200 million with an unnamed domestic advanced-memory manufacturer for its PanGen computational-lithography platform and PanGen vPWQ AI etch model. The customer was not identified, so this announcement does not establish a relationship with CXMT.",
+        "zh": "东方晶源称，公司与一家未具名的国内先进存储厂商签署了近 2 亿元长期商业合同，涉及 PanGen 计算光刻平台及 PanGen vPWQ AI 刻蚀模型。公告未披露客户名称，因此不能据此认定其与长鑫存在业务关系。"
+      },
+      "sourceId": "djel-memory-order-20260401"
     }
   ],
   "cxmt": {
@@ -1137,6 +1158,11 @@
       "date": "2026-10-11",
       "en": "Added verified OPPO Find X10 and vivo X500 product announcements; preserved forecasts, reporting periods and the complete watchlist.",
       "zh": "新增已核实的 OPPO Find X10 与 vivo X500 产品公告；保留预测口径、报告期及完整公司名单。"
+    },
+    {
+      "date": "2026-10-11",
+      "en": "Added DJEL's company-reported nearly RMB 200 million contract with an unnamed advanced-memory manufacturer without inferring a CXMT relationship.",
+      "zh": "新增东方晶源披露的近 2 亿元先进存储厂商合同，并保留客户匿名信息，不推断其与长鑫存在业务关系。"
     }
   ]
 }
