@@ -1,23 +1,24 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-11T07:48:59.256Z",
-  "lastChangedAt": "2026-10-11T07:48:59.256Z",
+  "lastCheckedAt": "2026-10-11T08:48:40.567Z",
+  "lastChangedAt": "2026-10-11T08:48:40.567Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 14,
+    "watchlistCursor": 18,
     "lastReview": {
-      "attemptedAt": "2026-10-11T07:48:59.256Z",
+      "attemptedAt": "2026-10-11T08:48:40.567Z",
       "companies": [
-        "悦芯科技",
-        "晶亦精微",
-        "中欣晶圆",
-        "上海超硅"
+        "鑫华科技",
+        "徐州博康",
+        "科华微电子",
+        "联仕新材"
       ],
       "unreadableCompanySites": [
-        "晶亦精微"
+        "鑫华科技",
+        "科华微电子"
       ]
     }
   },
@@ -41,7 +42,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-11T07:48:59.256Z",
+      "checkedAt": "2026-10-11T08:48:40.567Z",
       "status": "verified"
     },
     {
@@ -52,7 +53,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-11T07:48:59.256Z",
+      "checkedAt": "2026-10-11T08:48:40.567Z",
       "status": "verified"
     },
     {
@@ -283,6 +284,16 @@
       "url": "https://www.ftwafer.com/news/details/371.html",
       "publishedAt": "2026-07-02",
       "checkedAt": "2026-10-11T07:48:59.256Z"
+    },
+    {
+      "id": "lianshi-series-b-20220302",
+      "name": {
+        "en": "Lianshi New Materials · Series B financing announcement",
+        "zh": "联仕新材 · B 轮融资公告"
+      },
+      "url": "https://www.lsnm.com/news/gsxw/182.html",
+      "publishedAt": "2022-03-02",
+      "checkedAt": "2026-10-11T08:48:40.567Z"
     }
   ],
   "metrics": [
@@ -669,6 +680,19 @@
         "zh": "南京市创新投资集团披露，悦芯科技完成超 10 亿元 Pre-IPO 轮融资，资金将用于半导体核心装备布局及高端测试设备研发。公告提及其 TM8000 系列存储芯片测试设备，并称测试设备产品组合已向超过 200 家客户实现规模供货；该公告不构成其与长鑫存在供货关系的证据。"
       },
       "sourceId": "tbt-preipo-20260420"
+    },
+    {
+      "id": "lianshi-series-b-20220302",
+      "date": "2022-03-02",
+      "title": {
+        "en": "Lianshi discloses a several-hundred-million-yuan Series B financing",
+        "zh": "联仕新材披露数亿元 B 轮融资"
+      },
+      "summary": {
+        "en": "Lianshi’s official announcement says it completed a Series B financing of several hundred million yuan in October 2021, led by Fortune Capital, with proceeds intended for capacity expansion, research and development, and hiring. The same company disclosure explicitly lists CXMT among the semiconductor fabs served by its wet electronic chemicals; this is a historical vendor-reported disclosure, not an independently confirmed current procurement status.",
+        "zh": "联仕新材官方公告称，公司于 2021 年 10 月完成数亿元 B 轮融资，由达晨财智领投，资金拟用于新增产能、研发投入及人才引进。同一公司披露明确将长鑫存储列为其湿电子化学品服务的半导体工厂之一；这属于历史性的厂商披露，并非对当前采购状态的独立确认。"
+      },
+      "sourceId": "lianshi-series-b-20220302"
     }
   ],
   "cxmt": {
@@ -1055,6 +1079,11 @@
       "date": "2026-10-11",
       "en": "Added verified TBT Pre-IPO financing and FT Wafer June sales disclosures; retained Jingyi data after its exchange PDF could not be read.",
       "zh": "新增已核实的悦芯科技 Pre-IPO 轮融资及中欣晶圆 6 月销量披露；晶亦精微交易所 PDF 无法读取，因此保留原有数据。"
+    },
+    {
+      "date": "2026-10-11",
+      "en": "Added Lianshi's historical Series B financing and its explicit company-reported CXMT customer disclosure; preserved inaccessible Xinhua Semiconductor and Kempur data.",
+      "zh": "新增联仕新材历史 B 轮融资及其明确披露的长鑫客户信息；鑫华科技与科华微电子来源无法访问，因此保留原有数据。"
     }
   ]
 }
