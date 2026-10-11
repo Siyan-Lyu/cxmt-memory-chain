@@ -1,23 +1,24 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-11T18:46:43.381Z",
+  "lastCheckedAt": "2026-10-11T19:52:02.583Z",
   "lastChangedAt": "2026-10-11T18:46:43.381Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 16,
+    "watchlistCursor": 20,
     "lastReview": {
-      "attemptedAt": "2026-10-11T18:46:43.381Z",
+      "attemptedAt": "2026-10-11T19:52:02.583Z",
       "companies": [
-        "中欣晶圆",
-        "上海超硅",
-        "鑫华科技",
-        "徐州博康"
+        "科华微电子",
+        "联仕新材",
+        "科利德",
+        "久策气体"
       ],
       "unreadableCompanySites": [
-        "鑫华科技"
+        "科华微电子",
+        "久策气体"
       ]
     }
   },
@@ -41,7 +42,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-11T18:46:43.381Z",
+      "checkedAt": "2026-10-11T19:52:02.583Z",
       "status": "verified"
     },
     {
@@ -52,7 +53,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-11T18:46:43.381Z",
+      "checkedAt": "2026-10-11T19:52:02.583Z",
       "status": "verified"
     },
     {
@@ -292,7 +293,7 @@
       },
       "url": "https://www.lsnm.com/news/gsxw/182.html",
       "publishedAt": "2022-03-02",
-      "checkedAt": "2026-10-11T08:48:40.567Z"
+      "checkedAt": "2026-10-11T19:52:02.583Z"
     },
     {
       "id": "oppo-find-x10-20261008",
