@@ -1,22 +1,25 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-11T16:51:58.820Z",
+  "lastCheckedAt": "2026-10-11T17:45:16.531Z",
   "lastChangedAt": "2026-10-11T16:51:58.820Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 8,
+    "watchlistCursor": 12,
     "lastReview": {
-      "attemptedAt": "2026-10-11T16:51:58.820Z",
+      "attemptedAt": "2026-10-11T17:45:16.531Z",
       "companies": [
-        "上海微电子",
-        "东方晶源",
-        "睿励科学仪器",
-        "埃芯半导体"
+        "御微半导体",
+        "中科信",
+        "悦芯科技",
+        "晶亦精微"
       ],
-      "unreadableCompanySites": []
+      "unreadableCompanySites": [
+        "御微半导体",
+        "中科信"
+      ]
     }
   },
   "sources": [
@@ -39,7 +42,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-11T16:51:58.820Z",
+      "checkedAt": "2026-10-11T17:45:16.531Z",
       "status": "verified"
     },
     {
@@ -50,7 +53,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-11T16:51:58.820Z",
+      "checkedAt": "2026-10-11T17:45:16.531Z",
       "status": "verified"
     },
     {
@@ -270,7 +273,7 @@
       },
       "url": "https://www.njicg.com/article/1211",
       "publishedAt": "2026-04-20",
-      "checkedAt": "2026-10-11T07:48:59.256Z"
+      "checkedAt": "2026-10-11T17:45:16.531Z"
     },
     {
       "id": "ftwafer-sales-20260702",
