@@ -1,25 +1,22 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-11T11:45:16.178Z",
+  "lastCheckedAt": "2026-10-11T12:51:26.577Z",
   "lastChangedAt": "2026-10-11T08:48:40.567Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 30,
+    "watchlistCursor": 34,
     "lastReview": {
-      "attemptedAt": "2026-10-11T11:45:16.178Z",
+      "attemptedAt": "2026-10-11T12:51:26.577Z",
       "companies": [
-        "时代全芯",
-        "知存科技",
-        "芯德半导体",
-        "华进半导体"
+        "英韧科技",
+        "得一微",
+        "忆芯科技",
+        "忆恒创源"
       ],
-      "unreadableCompanySites": [
-        "时代全芯",
-        "华进半导体"
-      ]
+      "unreadableCompanySites": []
     }
   },
   "sources": [
@@ -42,7 +39,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-11T11:45:16.178Z",
+      "checkedAt": "2026-10-11T12:51:26.577Z",
       "status": "verified"
     },
     {
@@ -152,7 +149,7 @@
       },
       "url": "https://www.memblaze.com/about-company/news/846.html",
       "publishedAt": "2026-09-02",
-      "checkedAt": "2026-10-11T02:45:30.084Z",
+      "checkedAt": "2026-10-11T12:51:26.577Z",
       "status": "verified"
     },
     {
@@ -163,7 +160,7 @@
       },
       "url": "https://www.starblaze.com/lists/content/id/554.html",
       "publishedAt": "2026-08-27",
-      "checkedAt": "2026-10-11T02:45:30.084Z",
+      "checkedAt": "2026-10-11T12:51:26.577Z",
       "status": "verified"
     },
     {
@@ -174,7 +171,7 @@
       },
       "url": "https://www.yeestor.com/news/detail/i-269.html",
       "publishedAt": "2026-08-14",
-      "checkedAt": "2026-10-11T01:46:12.119Z",
+      "checkedAt": "2026-10-11T12:51:26.577Z",
       "status": "verified"
     },
     {
@@ -229,7 +226,7 @@
       },
       "url": "https://www.innogritcorp.com/news/innogrit-showcases-next-generation-pcie-6-0-and-cxl-storage-technologies-at-fms-2026/",
       "publishedAt": "2026-08-08",
-      "checkedAt": "2026-10-11T01:46:12.119Z",
+      "checkedAt": "2026-10-11T12:51:26.577Z",
       "status": "verified"
     },
     {
