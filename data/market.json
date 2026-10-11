@@ -1,24 +1,23 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-11T00:53:23.316Z",
-  "lastChangedAt": "2026-10-10T23:51:19.112Z",
+  "lastCheckedAt": "2026-10-11T01:46:12.119Z",
+  "lastChangedAt": "2026-10-11T01:46:12.119Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 28,
+    "watchlistCursor": 32,
     "lastReview": {
-      "attemptedAt": "2026-10-11T00:53:23.316Z",
+      "attemptedAt": "2026-10-11T01:46:12.119Z",
       "companies": [
-        "芯天下",
-        "昕原半导体",
-        "时代全芯",
-        "知存科技"
+        "芯德半导体",
+        "华进半导体",
+        "英韧科技",
+        "得一微"
       ],
       "unreadableCompanySites": [
-        "昕原半导体",
-        "时代全芯"
+        "华进半导体"
       ]
     }
   },
@@ -42,7 +41,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-11T00:53:23.316Z",
+      "checkedAt": "2026-10-11T01:46:12.119Z",
       "status": "verified"
     },
     {
@@ -53,7 +52,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-11T00:53:23.316Z",
+      "checkedAt": "2026-10-11T01:46:12.119Z",
       "status": "verified"
     },
     {
@@ -86,7 +85,7 @@
       },
       "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225529543.PDF",
       "publishedAt": "2026-08-29",
-      "checkedAt": "2026-10-08T08:35:00Z",
+      "checkedAt": "2026-10-11T01:46:12.119Z",
       "status": "verified"
     },
     {
@@ -119,7 +118,7 @@
       },
       "url": "https://www.csrc.gov.cn/csrc/c105984/c7659693/content.shtml",
       "publishedAt": "2026-08-20",
-      "checkedAt": "2026-10-10T14:50:03.259Z",
+      "checkedAt": "2026-10-11T01:46:12.119Z",
       "status": "verified"
     },
     {
@@ -174,7 +173,7 @@
       },
       "url": "https://www.yeestor.com/news/detail/i-269.html",
       "publishedAt": "2026-08-14",
-      "checkedAt": "2026-10-10T15:46:05.090Z",
+      "checkedAt": "2026-10-11T01:46:12.119Z",
       "status": "verified"
     },
     {
@@ -219,6 +218,28 @@
       "url": "https://www.ymtc.com/cn/news/64.html",
       "publishedAt": "2026-08-18",
       "checkedAt": "2026-10-10T23:51:19.112Z",
+      "status": "verified"
+    },
+    {
+      "id": "innogrit-fms-20260808",
+      "name": {
+        "en": "InnoGrit · FMS 2026 PCIe 6.0 and CXL demonstrations",
+        "zh": "英韧科技 · FMS 2026 PCIe 6.0 与 CXL 演示"
+      },
+      "url": "https://www.innogritcorp.com/news/innogrit-showcases-next-generation-pcie-6-0-and-cxl-storage-technologies-at-fms-2026/",
+      "publishedAt": "2026-08-08",
+      "checkedAt": "2026-10-11T01:46:12.119Z",
+      "status": "verified"
+    },
+    {
+      "id": "cxmt-projects-20260929",
+      "name": {
+        "en": "CXMT · Proposed use of excess IPO proceeds",
+        "zh": "长鑫 · 拟使用超募资金建设项目公告"
+      },
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-29/1225586345.PDF",
+      "publishedAt": "2026-09-29",
+      "checkedAt": "2026-10-11T01:46:12.119Z",
       "status": "verified"
     }
   ],
@@ -374,6 +395,19 @@
       "sourceId": "alibaba-ai-storage-20260929"
     },
     {
+      "id": "cxmt-projects-20260929",
+      "date": "2026-09-29",
+      "title": {
+        "en": "CXMT proposes funding for R&D and back-end testing projects",
+        "zh": "长鑫拟投入超募资金建设研发与后道测试项目"
+      },
+      "summary": {
+        "en": "CXMT proposed allocating RMB 13 billion of excess IPO proceeds to an R&D project and RMB 5 billion to a phase-two wafer testing and module assembly project. The 29 September filing states that shareholder approval is still required; the amounts are proposed funding, not completed spending.",
+        "zh": "长鑫拟使用 130 亿元超募资金建设技术研发项目，并投入 50 亿元建设晶圆后道测试及模组组装二期项目。9 月 29 日公告明确该议案尚需股东会审议；上述金额为拟投入资金，并非已完成支出。"
+      },
+      "sourceId": "cxmt-projects-20260929"
+    },
+    {
       "id": "xtx-xtd25w-20260924",
       "date": "2026-09-24",
       "title": {
@@ -502,6 +536,19 @@
         "zh": "得一微展示了 AI-MemoryX 产品战略，以及面向 AI PC 的无独立 DRAM 缓存 YS9503 PCIe Gen5 SSD 主控。其 14.8 GB/s 顺序读取性能属于厂商披露的产品规格。"
       },
       "sourceId": "yeestor-fms-20260814"
+    },
+    {
+      "id": "innogrit-fms-20260808",
+      "date": "2026-08-08",
+      "title": {
+        "en": "InnoGrit demonstrates PCIe 6.0 SSD and CXL-attached NAND",
+        "zh": "英韧科技展示 PCIe 6.0 SSD 与 CXL 接口 NAND"
+      },
+      "summary": {
+        "en": "At FMS 2026, InnoGrit reported 10 million IOPS for 512-byte random reads in a PCIe 6.0 SSD demonstration using a Gen5 server and a PCIe 6.0 switch. It also demonstrated a 512GB CXL 3.1 NAND module. These are company-reported demonstration results.",
+        "zh": "英韧科技在 FMS 2026 披露，使用 Gen5 服务器与 PCIe 6.0 交换机演示的 PCIe 6.0 SSD，在 512 字节随机读取中达到 1000 万 IOPS；同时展示了 512GB CXL 3.1 NAND 模组。以上属于公司披露的演示结果。"
+      },
+      "sourceId": "innogrit-fms-20260808"
     },
     {
       "id": "listed-20260727",
