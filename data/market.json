@@ -1,22 +1,25 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-11T14:52:46.724Z",
+  "lastCheckedAt": "2026-10-11T15:54:50.421Z",
   "lastChangedAt": "2026-10-11T14:52:46.724Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 0,
+    "watchlistCursor": 4,
     "lastReview": {
-      "attemptedAt": "2026-10-11T14:52:46.724Z",
+      "attemptedAt": "2026-10-11T15:54:50.421Z",
       "companies": [
-        "阿里云",
-        "荣耀终端",
-        "OPPO",
-        "vivo"
+        "合见工软",
+        "芯华章",
+        "芯和半导体",
+        "芯愿景"
       ],
-      "unreadableCompanySites": []
+      "unreadableCompanySites": [
+        "芯华章",
+        "芯愿景"
+      ]
     }
   },
   "sources": [
@@ -39,7 +42,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-11T14:52:46.724Z",
+      "checkedAt": "2026-10-11T15:54:50.421Z",
       "status": "verified"
     },
     {
@@ -50,7 +53,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-11T14:52:46.724Z",
+      "checkedAt": "2026-10-11T15:54:50.421Z",
       "status": "verified"
     },
     {
@@ -105,7 +108,7 @@
       },
       "url": "https://www.univista-isg.com/site/news_detail/576",
       "publishedAt": "2026-09-10",
-      "checkedAt": "2026-10-11T04:53:10.220Z",
+      "checkedAt": "2026-10-11T15:54:50.421Z",
       "status": "verified"
     },
     {
@@ -248,7 +251,7 @@
       },
       "url": "https://www.xpeedic.com/index.php?a=show&c=index&catid=66&id=28693&m=content",
       "publishedAt": "2026-07-29",
-      "checkedAt": "2026-10-11T05:50:28.281Z",
+      "checkedAt": "2026-10-11T15:54:50.421Z",
       "status": "verified"
     },
     {
