@@ -1,23 +1,25 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-11T05:50:28.281Z",
-  "lastChangedAt": "2026-10-11T05:50:28.281Z",
+  "lastCheckedAt": "2026-10-11T06:48:44.999Z",
+  "lastChangedAt": "2026-10-11T06:48:44.999Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 6,
+    "watchlistCursor": 10,
     "lastReview": {
-      "attemptedAt": "2026-10-11T05:50:28.281Z",
+      "attemptedAt": "2026-10-11T06:48:44.999Z",
       "companies": [
-        "芯和半导体",
-        "芯愿景",
-        "上海微电子",
-        "东方晶源"
+        "睿励科学仪器",
+        "埃芯半导体",
+        "御微半导体",
+        "中科信"
       ],
       "unreadableCompanySites": [
-        "芯愿景"
+        "睿励科学仪器",
+        "御微半导体",
+        "中科信"
       ]
     }
   },
@@ -41,7 +43,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-11T05:50:28.281Z",
+      "checkedAt": "2026-10-11T06:48:44.999Z",
       "status": "verified"
     },
     {
@@ -52,7 +54,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-11T05:50:28.281Z",
+      "checkedAt": "2026-10-11T06:48:44.999Z",
       "status": "verified"
     },
     {
@@ -251,6 +253,17 @@
       "url": "https://www.xpeedic.com/index.php?a=show&c=index&catid=66&id=28693&m=content",
       "publishedAt": "2026-07-29",
       "checkedAt": "2026-10-11T05:50:28.281Z",
+      "status": "verified"
+    },
+    {
+      "id": "eosemi-series-bplus-20260731",
+      "name": {
+        "en": "Kunpeng Capital · Eosemi Series B+ investment announcement",
+        "zh": "鲲鹏资本 · 埃芯半导体 B+ 轮投资公告"
+      },
+      "url": "https://www.kpcapital.cn/news_view.aspx?Fid=t25%3A4%3A25&Id=850&TypeId=4",
+      "publishedAt": "2026-07-31",
+      "checkedAt": "2026-10-11T06:48:44.999Z",
       "status": "verified"
     }
   ],
@@ -560,6 +573,19 @@
         "zh": "英韧科技在 FMS 2026 披露，使用 Gen5 服务器与 PCIe 6.0 交换机演示的 PCIe 6.0 SSD，在 512 字节随机读取中达到 1000 万 IOPS；同时展示了 512GB CXL 3.1 NAND 模组。以上属于公司披露的演示结果。"
       },
       "sourceId": "innogrit-fms-20260808"
+    },
+    {
+      "id": "eosemi-series-bplus-20260731",
+      "date": "2026-07-31",
+      "title": {
+        "en": "Eosemi completes Series B+ financing",
+        "zh": "埃芯半导体完成 B+ 轮融资"
+      },
+      "summary": {
+        "en": "Kunpeng Capital said Eosemi completed Series B+ financing with participation from funds managed by Kunpeng Capital and China Reform Holdings, among other investors. The announcement does not disclose the round amount; it says the investment will support capacity expansion and technology development. It does not establish a supplier relationship with CXMT.",
+        "zh": "鲲鹏资本披露，埃芯半导体完成 B+ 轮融资，参与方包括鲲鹏资本旗下基金、中国国新等多家机构。公告未披露本轮融资金额，并称资金将支持产能扩建及技术研发；该公告不构成其与长鑫存在供货关系的证据。"
+      },
+      "sourceId": "eosemi-series-bplus-20260731"
     },
     {
       "id": "xpeedic-eda2026-20260729",
@@ -975,6 +1001,11 @@
       "date": "2026-10-11",
       "en": "Added Xpeedic's EDA2026 product announcement with vendor-reported claims clearly identified.",
       "zh": "新增芯和半导体 EDA2026 产品公告，并明确标注相关数据为厂商披露口径。"
+    },
+    {
+      "date": "2026-10-11",
+      "en": "Added Eosemi's verified Series B+ financing announcement without inferring an undisclosed amount or supplier relationship.",
+      "zh": "新增已核实的埃芯半导体 B+ 轮融资公告，不推断未披露金额或供货关系。"
     }
   ]
 }
