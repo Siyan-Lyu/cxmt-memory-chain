@@ -1,24 +1,23 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-11T21:45:00.379Z",
+  "lastCheckedAt": "2026-10-11T22:50:06.902Z",
   "lastChangedAt": "2026-10-11T18:46:43.381Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 28,
+    "watchlistCursor": 32,
     "lastReview": {
-      "attemptedAt": "2026-10-11T21:45:00.379Z",
+      "attemptedAt": "2026-10-11T22:50:06.902Z",
       "companies": [
-        "芯天下",
-        "昕原半导体",
-        "时代全芯",
-        "知存科技"
+        "芯德半导体",
+        "华进半导体",
+        "英韧科技",
+        "得一微"
       ],
       "unreadableCompanySites": [
-        "昕原半导体",
-        "时代全芯"
+        "华进半导体"
       ]
     }
   },
@@ -42,7 +41,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-11T21:45:00.379Z",
+      "checkedAt": "2026-10-11T22:50:06.902Z",
       "status": "verified"
     },
     {
@@ -53,7 +52,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-11T21:45:00.379Z",
+      "checkedAt": "2026-10-11T22:50:06.902Z",
       "status": "verified"
     },
     {
@@ -119,7 +118,7 @@
       },
       "url": "https://www.csrc.gov.cn/csrc/c105984/c7659693/content.shtml",
       "publishedAt": "2026-08-20",
-      "checkedAt": "2026-10-11T11:45:16.178Z",
+      "checkedAt": "2026-10-11T22:50:06.902Z",
       "status": "verified"
     },
     {
@@ -174,7 +173,7 @@
       },
       "url": "https://www.yeestor.com/news/detail/i-269.html",
       "publishedAt": "2026-08-14",
-      "checkedAt": "2026-10-11T12:51:26.577Z",
+      "checkedAt": "2026-10-11T22:50:06.902Z",
       "status": "verified"
     },
     {
@@ -229,7 +228,7 @@
       },
       "url": "https://www.innogritcorp.com/news/innogrit-showcases-next-generation-pcie-6-0-and-cxl-storage-technologies-at-fms-2026/",
       "publishedAt": "2026-08-08",
-      "checkedAt": "2026-10-11T12:51:26.577Z",
+      "checkedAt": "2026-10-11T22:50:06.902Z",
       "status": "verified"
     },
     {
