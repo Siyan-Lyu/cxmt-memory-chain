@@ -1,22 +1,24 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-11T12:51:26.577Z",
+  "lastCheckedAt": "2026-10-11T13:53:21.087Z",
   "lastChangedAt": "2026-10-11T08:48:40.567Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 34,
+    "watchlistCursor": 38,
     "lastReview": {
-      "attemptedAt": "2026-10-11T12:51:26.577Z",
+      "attemptedAt": "2026-10-11T13:53:21.087Z",
       "companies": [
-        "英韧科技",
-        "得一微",
-        "忆芯科技",
-        "忆恒创源"
+        "记忆科技",
+        "嘉合劲威",
+        "金胜维",
+        "字节跳动"
       ],
-      "unreadableCompanySites": []
+      "unreadableCompanySites": [
+        "字节跳动"
+      ]
     }
   },
   "sources": [
@@ -39,7 +41,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-11T12:51:26.577Z",
+      "checkedAt": "2026-10-11T13:53:21.087Z",
       "status": "verified"
     },
     {
@@ -50,7 +52,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-11T11:45:16.178Z",
+      "checkedAt": "2026-10-11T13:53:21.087Z",
       "status": "verified"
     },
     {
@@ -182,7 +184,7 @@
       },
       "url": "https://www.kingspec.com/news/kingspec-heads-to-ifa-2026-with-next-generation-ssd-and-ddr5-solutions.html",
       "publishedAt": "2026-09-14",
-      "checkedAt": "2026-10-11T03:44:31.966Z",
+      "checkedAt": "2026-10-11T13:53:21.087Z",
       "status": "verified"
     },
     {
