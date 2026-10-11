@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "baselineAsOf": "2026-07-16",
-  "lastCheckedAt": "2026-10-11T04:53:10.220Z",
-  "lastChangedAt": "2026-10-11T01:46:12.119Z",
+  "lastCheckedAt": "2026-10-11T05:50:28.281Z",
+  "lastChangedAt": "2026-10-11T05:50:28.281Z",
   "scheduler": {
     "enabled": true,
     "cadence": "hourly",
     "status": "active",
-    "watchlistCursor": 2,
+    "watchlistCursor": 6,
     "lastReview": {
-      "attemptedAt": "2026-10-11T04:53:10.220Z",
+      "attemptedAt": "2026-10-11T05:50:28.281Z",
       "companies": [
-        "OPPO",
-        "vivo",
-        "合见工软",
-        "芯华章"
+        "芯和半导体",
+        "芯愿景",
+        "上海微电子",
+        "东方晶源"
       ],
       "unreadableCompanySites": [
-        "芯华章"
+        "芯愿景"
       ]
     }
   },
@@ -41,7 +41,7 @@
       },
       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
       "publishedAt": "2026-09-30",
-      "checkedAt": "2026-10-11T04:53:10.220Z",
+      "checkedAt": "2026-10-11T05:50:28.281Z",
       "status": "verified"
     },
     {
@@ -52,7 +52,7 @@
       },
       "url": "https://www.cxmt.com/en/news/info_22.html",
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-10-11T04:53:10.220Z",
+      "checkedAt": "2026-10-11T05:50:28.281Z",
       "status": "verified"
     },
     {
@@ -240,6 +240,17 @@
       "url": "https://static.cninfo.com.cn/finalpage/2026-09-29/1225586345.PDF",
       "publishedAt": "2026-09-29",
       "checkedAt": "2026-10-11T01:46:12.119Z",
+      "status": "verified"
+    },
+    {
+      "id": "xpeedic-eda2026-20260729",
+      "name": {
+        "en": "Xpeedic · EDA2026 product announcement",
+        "zh": "芯和半导体 · EDA2026 产品公告"
+      },
+      "url": "https://www.xpeedic.com/index.php?a=show&c=index&catid=66&id=28693&m=content",
+      "publishedAt": "2026-07-29",
+      "checkedAt": "2026-10-11T05:50:28.281Z",
       "status": "verified"
     }
   ],
@@ -549,6 +560,19 @@
         "zh": "英韧科技在 FMS 2026 披露，使用 Gen5 服务器与 PCIe 6.0 交换机演示的 PCIe 6.0 SSD，在 512 字节随机读取中达到 1000 万 IOPS；同时展示了 512GB CXL 3.1 NAND 模组。以上属于公司披露的演示结果。"
       },
       "sourceId": "innogrit-fms-20260808"
+    },
+    {
+      "id": "xpeedic-eda2026-20260729",
+      "date": "2026-07-29",
+      "title": {
+        "en": "Xpeedic releases its EDA2026 system-design software suite",
+        "zh": "芯和半导体发布 EDA2026 系统设计软件套件"
+      },
+      "summary": {
+        "en": "Xpeedic said EDA2026 adds bidirectional electrothermal analysis, photonic-electronic co-simulation and AI multi-agent capabilities. Performance figures in the announcement are vendor-reported product claims, and the announcement does not establish a supply relationship with CXMT.",
+        "zh": "芯和半导体称，EDA2026 新增电热双向分析、光电联合仿真及 AI 多智能体能力。公告中的性能数据属于厂商披露的产品指标，该公告不构成其与长鑫存在供货关系的证据。"
+      },
+      "sourceId": "xpeedic-eda2026-20260729"
     },
     {
       "id": "listed-20260727",
@@ -946,6 +970,11 @@
       "date": "2026-10-10",
       "en": "Added Alibaba Cloud's Apsara 2026 AI storage portfolio with vendor-reported figures clearly identified.",
       "zh": "新增阿里云 2026 云栖大会 AI 存储产品组合，并明确标注相关数字为厂商披露口径。"
+    },
+    {
+      "date": "2026-10-11",
+      "en": "Added Xpeedic's EDA2026 product announcement with vendor-reported claims clearly identified.",
+      "zh": "新增芯和半导体 EDA2026 产品公告，并明确标注相关数据为厂商披露口径。"
     }
   ]
 }
